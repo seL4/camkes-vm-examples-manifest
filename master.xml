@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+     Copyright 2018, Data61
+     Commonwealth Scientific and Industrial Research Organisation (CSIRO)
+     ABN 41 687 119 230.
+
+     This software may be distributed and modified according to the terms of
+     the BSD 2-Clause license. Note that NO WARRANTY is provided.
+     See "LICENSE_BSD2.txt" for details.
+
+     @TAG(DATA61_BSD)
+-->
+<manifest>
+    
+  <remote fetch="../SEL4PROJ" name="SEL4PROJ"/>
+  <remote fetch="../seL4" name="seL4"/>
+  <default revision="master" remote="seL4"/>
+  
+  <project name="camkes-tool.git" path="tools/camkes">
+    <linkfile dest="CMakeLists.txt" src="camkes-top-level.cmake"/> 
+    <linkfile dest="camkes_README.md" src="docs/index.md"/>
+  </project>
+  <project name="camkes-vm.git" path="projects/vm">
+    <linkfile dest="README.md" src="README.md"/>
+  </project>
+  <project name="camkes-vm-examples.git" path="projects/vm-examples"/>
+  <project name="capdl.git" path="projects/capdl"/>
+  <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ"/>
+  <project name="musllibc.git" path="projects/musllibc" revision="sel4"/>
+  <project name="picotcp.git" path="projects/picotcp" remote="SEL4PROJ"/>
+  <project name="seL4.git" path="kernel"/>
+  <project name="seL4_libs" path="projects/seL4_libs"/>
+  <project name="seL4_tools.git" path="projects/seL4_tools">
+    <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
+  </project>
+  <project name="util_libs.git" path="projects/util_libs"/>
+</manifest>
