@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+     Copyright 2018, Data61
+     Commonwealth Scientific and Industrial Research Organisation (CSIRO)
+     ABN 41 687 119 230.
+
+     This software may be distributed and modified according to the terms of
+     the BSD 2-Clause license. Note that NO WARRANTY is provided.
+     See "LICENSE_BSD2.txt" for details.
+
+     @TAG(DATA61_BSD)
+-->
+<manifest>
+  <remote fetch="../SEL4PROJ" name="SEL4PROJ"/>
+  <remote fetch="../seL4" name="seL4"/>
+  
+  <default remote="seL4" revision="master"/>
+  
+  <project name="camkes-tool.git" path="tools/camkes" revision="e2fa02428eaf1a9566dc1a290d446da68757ced2" upstream="master">
+    <linkfile dest="CMakeLists.txt" src="camkes-top-level.cmake"/>
+    <linkfile dest="camkes_README.md" src="docs/index.md"/>
+  </project>
+  <project name="camkes-vm-examples.git" path="projects/vm-examples" revision="e0513cdb377a1aa7eed0152698f1c167d0086d68" upstream="master"/>
+  <project name="camkes-vm.git" path="projects/vm" revision="b1fa80e674e6843380b13424251d08541945c690" upstream="master">
+    <linkfile dest="README.md" src="README.md"/>
+  </project>
+  <project name="capdl.git" path="projects/capdl" revision="5737a1c543787e85ae9d0530d1132e7af44ee323" upstream="master"/>
+  <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="8e2ef7eac3e83585888013ab57c44a1b1620a641" upstream="master"/>
+  <project name="musllibc.git" path="projects/musllibc" revision="f58dacf44a679a2d7c10fbb8d8bc8f58e2123791" upstream="sel4"/>
+  <project name="picotcp.git" path="projects/picotcp" remote="SEL4PROJ" revision="7f12f2949f44b1de04e9d89407642a9efee878c6" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="3f15e6cab6c858703f7dd1f85e6f90d0708bb3d9" upstream="master"/>
+  <project name="seL4_libs" path="projects/seL4_libs" revision="1697cb16ecbc7820cbda78d7c7c1896e884195a1" upstream="master"/>
+  <project name="seL4_tools.git" path="projects/seL4_tools" revision="eb154beebc15f21d9db86366b85f0a41ab9341c6" upstream="master">
+    <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
+  </project>
+  <project name="util_libs.git" path="projects/util_libs" revision="9e249f940b84a9c803f79d34fbcfc5c98e722bfc" upstream="master"/>
+</manifest>
