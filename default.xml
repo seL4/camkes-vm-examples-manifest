@@ -24,9 +24,9 @@
   <project name="camkes-vm.git" path="projects/vm" revision="b1fa80e674e6843380b13424251d08541945c690" upstream="master">
     <linkfile dest="README.md" src="README.md"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="5737a1c543787e85ae9d0530d1132e7af44ee323" upstream="master"/>
+  <project name="capdl.git" path="projects/capdl" revision="23a7eb0642acfaa85cda7ebcec326cdbec11c403" upstream="master"/>
   <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="8e2ef7eac3e83585888013ab57c44a1b1620a641" upstream="master"/>
-  <project name="musllibc.git" path="projects/musllibc" revision="f58dacf44a679a2d7c10fbb8d8bc8f58e2123791" upstream="sel4"/>
+  <project name="musllibc.git" path="projects/musllibc" revision="fad6e9e25c82bb763f0680c73f0eeaab36097ab2" upstream="sel4"/>
   <project name="picotcp.git" path="projects/picotcp" remote="SEL4PROJ" revision="7f12f2949f44b1de04e9d89407642a9efee878c6" upstream="master"/>
   <project name="seL4.git" path="kernel" revision="c3d0542337e898678a12c09d5cb8f11f723e1d10" upstream="master"/>
   <project name="seL4_libs" path="projects/seL4_libs" revision="1697cb16ecbc7820cbda78d7c7c1896e884195a1" upstream="master"/>
