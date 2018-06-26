@@ -15,6 +15,7 @@
   <remote fetch="../SEL4PROJ" name="SEL4PROJ"/>
   <remote fetch="../seL4" name="seL4"/>
   <remote fetch="https://github.com/tass-belgium" name="picotcp" />
+  <remote fetch="https://github.com/ruslo" name="polly" />
 
   <default revision="master" remote="seL4"/>
   
@@ -37,4 +38,5 @@
   </project>
   <project name="util_libs.git" path="projects/util_libs"/>
   <project name="camkes-vm-linux.git" path="projects/vm-linux" remote="SEL4PROJ"/>
+  <project name="polly" remote="polly" path="tools/polly" />
 </manifest>
