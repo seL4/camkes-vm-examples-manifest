@@ -36,4 +36,5 @@
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
   <project name="util_libs.git" path="projects/util_libs"/>
+  <project name="camkes-vm-linux.git" path="projects/vm-linux" remote="SEL4PROJ"/>
 </manifest>
