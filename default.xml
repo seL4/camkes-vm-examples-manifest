@@ -13,7 +13,9 @@
 <manifest>
   <remote fetch="../SEL4PROJ" name="SEL4PROJ"/>
   <remote fetch="https://github.com/tass-belgium" name="picotcp"/>
+  <remote fetch="https://github.com/ruslo" name="polly"/>
   <remote fetch="../seL4" name="seL4"/>
+  <remote fetch="https://github.com/zeromq" name="zeromq"/>
   
   <default remote="seL4" revision="master"/>
   
@@ -21,17 +23,20 @@
     <linkfile dest="CMakeLists.txt" src="camkes-top-level.cmake"/>
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
   </project>
-  <project name="camkes-vm-examples.git" path="projects/vm-examples" revision="e0513cdb377a1aa7eed0152698f1c167d0086d68" upstream="master"/>
-  <project name="camkes-vm.git" path="projects/vm" revision="b1fa80e674e6843380b13424251d08541945c690" upstream="master">
+  <project name="camkes-vm-examples.git" path="projects/vm-examples" revision="e03716877214d2b7f2a71ba007280abdcd231514" upstream="master"/>
+  <project name="camkes-vm-linux.git" path="projects/vm-linux" remote="SEL4PROJ" revision="907f2a0cc5b1b7a9174cb28c34e22af65831204e" upstream="master"/>
+  <project name="camkes-vm.git" path="projects/vm" revision="9ad0523be9bf109f0663818ec8b3e53725e3c8c7" upstream="master">
     <linkfile dest="README.md" src="README.md"/>
   </project>
   <project name="capdl.git" path="projects/capdl" revision="b1cf4f2841ec49fdc0c8cce0a48411cbe591fac0" upstream="master"/>
   <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="8e2ef7eac3e83585888013ab57c44a1b1620a641" upstream="master"/>
+  <project name="libzmq" path="tools/libzmq" remote="zeromq" revision="d062edd8c142384792955796329baf1e5a3377cd" upstream="refs/tags/v4.2.5"/>
   <project name="musllibc.git" path="projects/musllibc" revision="b41b6f8ff99a4328a681023b64234938459854fc" upstream="sel4"/>
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
+  <project name="polly" path="tools/polly" remote="polly" revision="79e1b40968d03ed16d9e8c91c714327958c72e73" upstream="master"/>
   <project name="seL4.git" path="kernel" revision="9328208142b4da12ca742b935b429ca696941782" upstream="master"/>
   <project name="seL4_libs" path="projects/seL4_libs" revision="fb4799226217548f6959e8348c49222e2a01dc26" upstream="master"/>
-  <project name="seL4_tools.git" path="projects/seL4_tools" revision="635b8ab565bedb4838121a2e5a595ad0cbfb4060" upstream="master">
+  <project name="seL4_tools.git" path="projects/seL4_tools" revision="c81ff8b906abf5581e6120d08b79fc114e631af2" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
   <project name="util_libs.git" path="projects/util_libs" revision="3b688699a7c9a0757eff9f7d837ec89f07b32b4d" upstream="master"/>
