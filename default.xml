@@ -24,7 +24,7 @@
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
   </project>
   <project name="camkes-vm-examples.git" path="projects/vm-examples" revision="e03716877214d2b7f2a71ba007280abdcd231514" upstream="master"/>
-  <project name="camkes-vm-linux.git" path="projects/vm-linux" remote="SEL4PROJ" revision="907f2a0cc5b1b7a9174cb28c34e22af65831204e" upstream="master"/>
+  <project name="camkes-vm-linux.git" path="projects/vm-linux" remote="SEL4PROJ" revision="75093b52ce8b2d63a1c4c7f1bde8576455782074" upstream="master"/>
   <project name="camkes-vm.git" path="projects/vm" revision="9ad0523be9bf109f0663818ec8b3e53725e3c8c7" upstream="master">
     <linkfile dest="README.md" src="README.md"/>
   </project>
@@ -35,7 +35,7 @@
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
   <project name="polly" path="tools/polly" remote="polly" revision="79e1b40968d03ed16d9e8c91c714327958c72e73" upstream="master"/>
   <project name="seL4.git" path="kernel" revision="9328208142b4da12ca742b935b429ca696941782" upstream="master"/>
-  <project name="seL4_libs" path="projects/seL4_libs" revision="fb4799226217548f6959e8348c49222e2a01dc26" upstream="master"/>
+  <project name="seL4_libs" path="projects/seL4_libs" revision="992a503a10d8c2dfb014224d4d357fa83f13df80" upstream="master"/>
   <project name="seL4_tools.git" path="projects/seL4_tools" revision="c81ff8b906abf5581e6120d08b79fc114e631af2" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
