@@ -23,7 +23,7 @@
     <linkfile dest="CMakeLists.txt" src="camkes-top-level.cmake"/>
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
   </project>
-  <project name="camkes-vm-examples.git" path="projects/vm-examples" revision="e03716877214d2b7f2a71ba007280abdcd231514" upstream="master"/>
+  <project name="camkes-vm-examples.git" path="projects/vm-examples" revision="39d7007b82ac60c4fa76cde31a6f2f3988c23510" upstream="master"/>
   <project name="camkes-vm-linux.git" path="projects/vm-linux" remote="SEL4PROJ" revision="4fd70d21e47f3f8a1adad259bc97bc5e8cfec357" upstream="master"/>
   <project name="camkes-vm.git" path="projects/vm" revision="9ad0523be9bf109f0663818ec8b3e53725e3c8c7" upstream="master">
     <linkfile dest="README.md" src="README.md"/>
@@ -39,5 +39,5 @@
   <project name="seL4_tools.git" path="projects/seL4_tools" revision="c81ff8b906abf5581e6120d08b79fc114e631af2" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="3b688699a7c9a0757eff9f7d837ec89f07b32b4d" upstream="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="3aa30a04b564601a1b457e509d2ca026bc1e05fb" upstream="master"/>
 </manifest>
