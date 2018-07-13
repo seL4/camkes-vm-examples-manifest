@@ -19,7 +19,7 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="tools/camkes" revision="4b2a8503a65db579ed5d6b56964e5b3ed52db8e8" upstream="master">
+  <project name="camkes-tool.git" path="tools/camkes" revision="6eb834f30575b1cc16206a17969510ee91cd22b8" upstream="master">
     <linkfile dest="CMakeLists.txt" src="camkes-top-level.cmake"/>
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
   </project>
@@ -34,7 +34,7 @@
   <project name="musllibc.git" path="projects/musllibc" revision="0528e281f152f14c31902b283162b29836c88977" upstream="sel4"/>
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
   <project name="polly" path="tools/polly" remote="polly" revision="79e1b40968d03ed16d9e8c91c714327958c72e73" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="9328208142b4da12ca742b935b429ca696941782" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="723aa0ead332660cc7f692f051a8fd9ca4ffc95c" upstream="master"/>
   <project name="seL4_libs" path="projects/seL4_libs" revision="7528b23f85dffafcb26a966ad7fa99e0efc13427" upstream="master"/>
   <project name="seL4_tools.git" path="projects/seL4_tools" revision="c81ff8b906abf5581e6120d08b79fc114e631af2" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
