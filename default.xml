@@ -19,17 +19,17 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="tools/camkes" revision="94369c411660a97651c6532d706d0ab21997925e" upstream="master">
+  <project name="camkes-tool.git" path="tools/camkes" revision="7b7b78ae451d68e4c020adfc39735c5db90fbef4" upstream="master">
     <linkfile dest="CMakeLists.txt" src="camkes-top-level.cmake"/>
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
   </project>
-  <project name="camkes-vm-examples.git" path="projects/vm-examples" revision="39d7007b82ac60c4fa76cde31a6f2f3988c23510" upstream="master"/>
+  <project name="camkes-vm-examples.git" path="projects/vm-examples" revision="d81d517c08e85625b20bf44d13434300b2df249e" upstream="master"/>
   <project name="camkes-vm-linux.git" path="projects/vm-linux" remote="SEL4PROJ" revision="4fd70d21e47f3f8a1adad259bc97bc5e8cfec357" upstream="master"/>
   <project name="camkes-vm.git" path="projects/vm" revision="9ad0523be9bf109f0663818ec8b3e53725e3c8c7" upstream="master">
     <linkfile dest="README.md" src="README.md"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="b1cf4f2841ec49fdc0c8cce0a48411cbe591fac0" upstream="master"/>
-  <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="0cd8f71432619068cc43898c6ad92134bc342ca9" upstream="master"/>
+  <project name="capdl.git" path="projects/capdl" revision="0bc45889886cd7bd65813b483f7f2f7eb9f1f975" upstream="master"/>
+  <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="e611951b655ac8e31ced9206bcc2e83a28e34c92" upstream="master"/>
   <project name="libzmq" path="tools/libzmq" remote="zeromq" revision="d062edd8c142384792955796329baf1e5a3377cd" upstream="refs/tags/v4.2.5"/>
   <project name="musllibc.git" path="projects/musllibc" revision="0528e281f152f14c31902b283162b29836c88977" upstream="sel4"/>
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
