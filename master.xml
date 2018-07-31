@@ -20,24 +20,24 @@
 
   <default revision="master" remote="seL4"/>
   
-  <project name="camkes-tool.git" path="tools/camkes">
+  <project name="camkes-tool.git" path="tools/camkes" revision="tipc-stage">
     <linkfile dest="CMakeLists.txt" src="camkes-top-level.cmake"/> 
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
   </project>
-  <project name="camkes-vm.git" path="projects/vm">
+  <project name="camkes-vm.git" path="projects/vm" revision="tipc-stage">
     <linkfile dest="README.md" src="README.md"/>
   </project>
-  <project name="camkes-vm-examples.git" path="projects/vm-examples"/>
+  <project name="camkes-vm-examples.git" path="projects/vm-examples" revision="tipc-stage"/>
   <project name="capdl.git" path="projects/capdl"/>
   <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ"/>
   <project name="musllibc.git" path="projects/musllibc" revision="sel4"/>
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="refs/tags/v1.7.0"/>
   <project name="seL4.git" path="kernel"/>
-  <project name="seL4_libs" path="projects/seL4_libs"/>
+  <project name="seL4_libs" path="projects/seL4_libs" revision="tipc-stage"/>
   <project name="seL4_tools.git" path="projects/seL4_tools">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="tipc-stage"/>
   <project name="camkes-vm-linux.git" path="projects/vm-linux" remote="SEL4PROJ"/>
   <project name="polly" remote="polly" path="tools/polly" />
   <project name="libzmq" remote="zeromq" path="tools/libzmq" revision="refs/tags/v4.2.5" />
