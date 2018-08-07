@@ -19,7 +19,7 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="tools/camkes" revision="713ab9ee370ce5f4c03ee46318b261cc41021fc4" upstream="master">
+  <project name="camkes-tool.git" path="tools/camkes" revision="002c17144e526c889b3a6eaa2e37f49f7ce622c6" upstream="master">
     <linkfile dest="CMakeLists.txt" src="camkes-top-level.cmake"/>
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
   </project>
@@ -33,8 +33,8 @@
   <project name="libzmq" path="tools/libzmq" remote="zeromq" revision="d062edd8c142384792955796329baf1e5a3377cd" upstream="refs/tags/v4.2.5"/>
   <project name="musllibc.git" path="projects/musllibc" revision="e6cd7b1622fdec33dcb341ccbb3a78596559c6d5" upstream="sel4"/>
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
-  <project name="polly" path="tools/polly" remote="polly" revision="622a6df50be4340438603f5023d487aa29bb1ccc" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="639b7fbd37cc9b1dce31e1b7aabe604cf3664b5c" upstream="master"/>
+  <project name="polly" path="tools/polly" remote="polly" revision="3d19a802331542e658a95ea528abadaa4c1fb716" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="122aaeb5d583dc1c8ffcd2b235b5f97a22472af7" upstream="master"/>
   <project name="seL4_libs" path="projects/seL4_libs" revision="7528b23f85dffafcb26a966ad7fa99e0efc13427" upstream="master"/>
   <project name="seL4_tools.git" path="projects/seL4_tools" revision="086e89ba6aafb4a02048f71266acabdd6be8991b" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
