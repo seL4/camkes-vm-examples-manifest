@@ -38,6 +38,7 @@
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
   <project name="util_libs.git" path="projects/util_libs"/>
+  <project name="projects_libs.git" remote="SEL4PROJ" path="projects/projects_libs"/>
   <project name="camkes-vm-linux.git" path="projects/vm-linux" remote="SEL4PROJ"/>
   <project name="polly" remote="polly" path="tools/polly" />
   <project name="libzmq" remote="zeromq" path="tools/libzmq" revision="refs/tags/v4.2.5" />
