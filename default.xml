@@ -19,7 +19,7 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="tools/camkes" revision="6efa09b6bd9a86f0726607035ee0cf1ddf3feffe" upstream="master">
+  <project name="camkes-tool.git" path="tools/camkes" revision="3153f3303c42639cb9ccadd1efbebb70d0566d06" upstream="master">
     <linkfile dest="CMakeLists.txt" src="camkes-top-level.cmake"/>
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
   </project>
@@ -28,7 +28,7 @@
   <project name="camkes-vm.git" path="projects/vm" revision="d2665e2db5d02b171692d28112d40d74231726c2" upstream="master">
     <linkfile dest="README.md" src="README.md"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="421eed1c0f7110d8d31be36cc360923a5d201be9" upstream="master"/>
+  <project name="capdl.git" path="projects/capdl" revision="fcc8790d1b0d98dcd34b1da6585c9244d054f128" upstream="master"/>
   <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="7c10a8036d03c615984a471a104a295970603f0e" upstream="master"/>
   <project name="libzmq" path="tools/libzmq" remote="zeromq" revision="d062edd8c142384792955796329baf1e5a3377cd" upstream="refs/tags/v4.2.5"/>
   <project name="musllibc.git" path="projects/musllibc" revision="f1f448f817971b08224778fefca749722f416dc8" upstream="sel4"/>
