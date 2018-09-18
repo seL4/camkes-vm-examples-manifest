@@ -35,7 +35,7 @@
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
   <project name="polly" path="tools/polly" remote="polly" revision="ee2826812848a5b610fa1b00b25801a106f4062a" upstream="master"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="4be456238d3019387316d0f1d0f77d4e23d4d8ed" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="924d1c26390bb4af294308c03353379b295b3646" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="ffbb278305d0ee322f6bea25739c5a4e08b7d807" upstream="master"/>
   <project name="seL4_libs" path="projects/seL4_libs" revision="6832405c4eb7bd650964fba5f3990c41886bd357" upstream="master"/>
   <project name="seL4_tools.git" path="projects/seL4_tools" revision="9476bb8ace1e294a457665bb7ed4aab79402ea10" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
