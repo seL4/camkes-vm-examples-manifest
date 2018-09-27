@@ -31,7 +31,7 @@
   <project name="capdl.git" path="projects/capdl" revision="b8423e6a021bad5ab535ac4092c60b8dc74744fe" upstream="master"/>
   <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="8d207c811c74bc0ff5cfe678c92371b43c62bab3" upstream="master"/>
   <project name="libzmq" path="tools/libzmq" remote="zeromq" revision="d062edd8c142384792955796329baf1e5a3377cd" upstream="refs/tags/v4.2.5"/>
-  <project name="musllibc.git" path="projects/musllibc" revision="5dae82e55ab9522a427e590b42c0c4807ad6ee18" upstream="sel4"/>
+  <project name="musllibc.git" path="projects/musllibc" revision="9e288a83f17de80e54af87852674d70f59d6beee" upstream="sel4"/>
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
   <project name="polly" path="tools/polly" remote="polly" revision="845093953177eab3223483f41c5f138fd4cbc3c9" upstream="master"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="4be456238d3019387316d0f1d0f77d4e23d4d8ed" upstream="master"/>
