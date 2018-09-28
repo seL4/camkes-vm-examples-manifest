@@ -19,17 +19,17 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="tools/camkes" revision="08eae59c1598c14e0c25e2abbc7115a041618276" upstream="master">
+  <project name="camkes-tool.git" path="tools/camkes" revision="4dc488e7c8e4c2475f5d3613f15b38b7f070c120" upstream="master">
     <linkfile dest="CMakeLists.txt" src="camkes-top-level.cmake"/>
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
   </project>
-  <project name="camkes-vm-examples.git" path="projects/vm-examples" revision="1d170fc0baf1bf563623bcf07e3e7a724490fd48" upstream="master"/>
+  <project name="camkes-vm-examples.git" path="projects/vm-examples" revision="51ca9b2d0a2a0724dcd3a633a075c7ddd0151682" upstream="master"/>
   <project name="camkes-vm-linux.git" path="projects/vm-linux" remote="SEL4PROJ" revision="dd42acacbc3a973510becdd569914406b01b9575" upstream="master"/>
   <project name="camkes-vm.git" path="projects/vm" revision="ebbec3c2431abf3211be615099f6190a4e2a3ac7" upstream="master">
     <linkfile dest="README.md" src="README.md"/>
   </project>
   <project name="capdl.git" path="projects/capdl" revision="b8423e6a021bad5ab535ac4092c60b8dc74744fe" upstream="master"/>
-  <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="8d207c811c74bc0ff5cfe678c92371b43c62bab3" upstream="master"/>
+  <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="e9385ee1fa97c4a1710c292558eb02679a7fcea6" upstream="master"/>
   <project name="libzmq" path="tools/libzmq" remote="zeromq" revision="d062edd8c142384792955796329baf1e5a3377cd" upstream="refs/tags/v4.2.5"/>
   <project name="musllibc.git" path="projects/musllibc" revision="9e288a83f17de80e54af87852674d70f59d6beee" upstream="sel4"/>
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
@@ -40,5 +40,5 @@
   <project name="seL4_tools.git" path="projects/seL4_tools" revision="004911f73ed487962712329e0d3a316fc882def7" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="e4bf6f30ebc6448744c48e5a1c92a17de33c4371" upstream="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="89a89e9612881b7d09eed7f55c97c51642b88e5d" upstream="master"/>
 </manifest>
