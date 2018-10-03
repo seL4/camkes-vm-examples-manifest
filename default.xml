@@ -23,7 +23,7 @@
     <linkfile dest="CMakeLists.txt" src="camkes-top-level.cmake"/>
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
   </project>
-  <project name="camkes-vm-examples.git" path="projects/vm-examples" revision="51ca9b2d0a2a0724dcd3a633a075c7ddd0151682" upstream="master"/>
+  <project name="camkes-vm-examples.git" path="projects/vm-examples" revision="16e8328bbb5bcb738409030cf89897c340ed4ad3" upstream="master"/>
   <project name="camkes-vm-linux.git" path="projects/vm-linux" remote="SEL4PROJ" revision="673964443fe8d064e1708f876e1bb0dec4a25062" upstream="master"/>
   <project name="camkes-vm.git" path="projects/vm" revision="2afa5dd54ae31bfc03f3b51c382aecdccdbef0c9" upstream="master">
     <linkfile dest="README.md" src="README.md"/>
