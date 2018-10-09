@@ -19,7 +19,7 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="tools/camkes" revision="5efa5ce9053663733223357818aecf601ac34478" upstream="master">
+  <project name="camkes-tool.git" path="tools/camkes" revision="f5f6adfd6208b01f0e15b1bec847a1cd620b5b7b" upstream="master">
     <linkfile dest="CMakeLists.txt" src="camkes-top-level.cmake"/>
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
   </project>
@@ -29,7 +29,7 @@
     <linkfile dest="README.md" src="README.md"/>
   </project>
   <project name="capdl.git" path="projects/capdl" revision="b8423e6a021bad5ab535ac4092c60b8dc74744fe" upstream="master"/>
-  <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="952ac86b48b8e9e64c72fdfda56f0c972f8f794f" upstream="master"/>
+  <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="b10a1cbc8901792b0e713dc6d98310824c71b46c" upstream="master"/>
   <project name="libzmq" path="tools/libzmq" remote="zeromq" revision="d062edd8c142384792955796329baf1e5a3377cd" upstream="refs/tags/v4.2.5"/>
   <project name="musllibc.git" path="projects/musllibc" revision="9e288a83f17de80e54af87852674d70f59d6beee" upstream="sel4"/>
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
@@ -40,5 +40,5 @@
   <project name="seL4_tools.git" path="projects/seL4_tools" revision="2f3bd00b274c64d1445f028030481e6feb35f170" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="865140105baeab89efd03cb813f39cf6b22ae3b8" upstream="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="9178008a081dff09ac2aa1eafbdb51d14d731407" upstream="master"/>
 </manifest>
