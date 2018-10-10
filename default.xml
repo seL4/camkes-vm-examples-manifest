@@ -19,16 +19,16 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="tools/camkes" revision="77171225d9481278b487927ba2a7dadc64bd6df5" upstream="master">
+  <project name="camkes-tool.git" path="tools/camkes" revision="28fac4aebc529b968c27478668f57d081ae46fb9" upstream="master">
     <linkfile dest="CMakeLists.txt" src="camkes-top-level.cmake"/>
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
   </project>
   <project name="camkes-vm-examples.git" path="projects/vm-examples" revision="16e8328bbb5bcb738409030cf89897c340ed4ad3" upstream="master"/>
   <project name="camkes-vm-linux.git" path="projects/vm-linux" remote="SEL4PROJ" revision="673964443fe8d064e1708f876e1bb0dec4a25062" upstream="master"/>
-  <project name="camkes-vm.git" path="projects/vm" revision="2afa5dd54ae31bfc03f3b51c382aecdccdbef0c9" upstream="master">
+  <project name="camkes-vm.git" path="projects/vm" revision="6c395cdfa768210f29b5b868657d79a2cf366d44" upstream="master">
     <linkfile dest="README.md" src="README.md"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="1ddbb545132c8b4a8cc1d5ed6aeb8157a3d54baf" upstream="master"/>
+  <project name="capdl.git" path="projects/capdl" revision="52323b6dd924305f893da3121474d4d44ead97a4" upstream="master"/>
   <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="b10a1cbc8901792b0e713dc6d98310824c71b46c" upstream="master"/>
   <project name="libzmq" path="tools/libzmq" remote="zeromq" revision="d062edd8c142384792955796329baf1e5a3377cd" upstream="refs/tags/v4.2.5"/>
   <project name="musllibc.git" path="projects/musllibc" revision="9e288a83f17de80e54af87852674d70f59d6beee" upstream="sel4"/>
