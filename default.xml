@@ -33,12 +33,12 @@
   <project name="libzmq" path="tools/libzmq" remote="zeromq" revision="d062edd8c142384792955796329baf1e5a3377cd" upstream="refs/tags/v4.2.5"/>
   <project name="musllibc.git" path="projects/musllibc" revision="9e288a83f17de80e54af87852674d70f59d6beee" upstream="sel4"/>
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
-  <project name="polly" path="tools/polly" remote="polly" revision="79e928203604904429b6b0246e73cc16e20eae89" upstream="master"/>
+  <project name="polly" path="tools/polly" remote="polly" revision="33e96217b93dd0598828a02815c7b22d44fa4580" upstream="master"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="4be456238d3019387316d0f1d0f77d4e23d4d8ed" upstream="master"/>
   <project name="seL4.git" path="kernel" revision="cfcf95c7768e57f6bf673ebccd2e15b8d174f19e" upstream="master"/>
-  <project name="seL4_libs" path="projects/seL4_libs" revision="ea427b1bcc4238cc0111161888ff87a8772bbd7b" upstream="master"/>
+  <project name="seL4_libs" path="projects/seL4_libs" revision="03daf5061059d37a3fd135aadf8050cea57477c3" upstream="master"/>
   <project name="seL4_tools.git" path="projects/seL4_tools" revision="e8c8f9e1a3c37508fb1c395884a11d2a569e1ef6" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="ccb57c2d4c62d1723d75ee73517c29c56fdc9fc7" upstream="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="177d4e19d8f975f16b5637be380864fc03c717dd" upstream="master"/>
 </manifest>
