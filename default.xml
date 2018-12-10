@@ -29,7 +29,7 @@
     <linkfile dest="README.md" src="README.md"/>
   </project>
   <project name="capdl.git" path="projects/capdl" revision="423c9d5e970f3e78166fb723561d613182e7333a" upstream="master"/>
-  <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="ab7cd7a681df17e060e5a277d8d237111229c2a5" upstream="master"/>
+  <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="cb676080326b74b2e088faba1c0798e6804993ca" upstream="master"/>
   <project name="libzmq" path="tools/libzmq" remote="zeromq" revision="d062edd8c142384792955796329baf1e5a3377cd" upstream="refs/tags/v4.2.5"/>
   <project name="musllibc.git" path="projects/musllibc" revision="9e288a83f17de80e54af87852674d70f59d6beee" upstream="sel4"/>
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
@@ -40,5 +40,5 @@
   <project name="seL4_tools.git" path="projects/seL4_tools" revision="39c50e1c39d884ef7446c2167ef3b2dc0393d6a2" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="a0359d732935f89c31066ebca210ea9864d53ca3" upstream="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="a99e2aa528ba541ea95ecc2410df7a8875c776ec" upstream="master"/>
 </manifest>
