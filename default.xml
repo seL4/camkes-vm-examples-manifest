@@ -19,7 +19,7 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="tools/camkes" revision="299a055582e412c4b84bb0ffb7ce3d66ffd5354c" upstream="master">
+  <project name="camkes-tool.git" path="tools/camkes" revision="e6b5a49c0db8f49dc4befc57e390a7b7cd020472" upstream="master">
     <linkfile dest="CMakeLists.txt" src="camkes-top-level.cmake"/>
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
   </project>
@@ -37,7 +37,7 @@
   <project name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="2c81a04b7bd3b71a9e89a01205dfc3c394b883e2" upstream="master"/>
   <project name="seL4.git" path="kernel" revision="d56175ec3ec1c104d8d17d437c312ef1567fca35" upstream="master"/>
   <project name="seL4_libs" path="projects/seL4_libs" revision="3aefef1523debdddb11f66b1d663210f7b3811ce" upstream="master"/>
-  <project name="seL4_tools.git" path="projects/seL4_tools" revision="39c50e1c39d884ef7446c2167ef3b2dc0393d6a2" upstream="master">
+  <project name="seL4_tools.git" path="projects/seL4_tools" revision="f03f534f1fdaa5171f0dd233b179a84a86c7d2a4" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
   <project name="util_libs.git" path="projects/util_libs" revision="a99e2aa528ba541ea95ecc2410df7a8875c776ec" upstream="master"/>
