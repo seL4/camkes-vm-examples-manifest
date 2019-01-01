@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-     Copyright 2018, Data61
+     Copyright 2019, Data61
      Commonwealth Scientific and Industrial Research Organisation (CSIRO)
      ABN 41 687 119 230.
 
@@ -33,7 +33,7 @@
   <project name="libzmq" path="tools/libzmq" remote="zeromq" revision="d062edd8c142384792955796329baf1e5a3377cd" upstream="refs/tags/v4.2.5"/>
   <project name="musllibc.git" path="projects/musllibc" revision="9e288a83f17de80e54af87852674d70f59d6beee" upstream="sel4"/>
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
-  <project name="polly" path="tools/polly" remote="polly" revision="fd1a8025fb85c4c7a183741032af3e95105d50bb" upstream="master"/>
+  <project name="polly" path="tools/polly" remote="polly" revision="187184c0ef05eee88d0b362fecbfcfb69b7f2b3c" upstream="master"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="2c81a04b7bd3b71a9e89a01205dfc3c394b883e2" upstream="master"/>
   <project name="seL4.git" path="kernel" revision="d56175ec3ec1c104d8d17d437c312ef1567fca35" upstream="master"/>
   <project name="seL4_libs" path="projects/seL4_libs" revision="3aefef1523debdddb11f66b1d663210f7b3811ce" upstream="master"/>
