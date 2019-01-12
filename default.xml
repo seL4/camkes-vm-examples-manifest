@@ -19,7 +19,7 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="tools/camkes" revision="10c75159da70ff1d070c37cc15824b24ef9caf9e" upstream="master">
+  <project name="camkes-tool.git" path="tools/camkes" revision="24ca2b4b3faed90d5e8dd1a731518355e6f807c1" upstream="master">
     <linkfile dest="CMakeLists.txt" src="camkes-top-level.cmake"/>
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
   </project>
@@ -33,12 +33,12 @@
   <project name="libzmq" path="tools/libzmq" remote="zeromq" revision="d062edd8c142384792955796329baf1e5a3377cd" upstream="refs/tags/v4.2.5"/>
   <project name="musllibc.git" path="projects/musllibc" revision="9e288a83f17de80e54af87852674d70f59d6beee" upstream="sel4"/>
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
-  <project name="polly" path="tools/polly" remote="polly" revision="187184c0ef05eee88d0b362fecbfcfb69b7f2b3c" upstream="master"/>
+  <project name="polly" path="tools/polly" remote="polly" revision="6f5ebf010d1e2432636a4f3c9c5742ec748cc8a8" upstream="master"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="2c81a04b7bd3b71a9e89a01205dfc3c394b883e2" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="d56175ec3ec1c104d8d17d437c312ef1567fca35" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="468d1c55059a7b5950e4718c2620f663776bd908" upstream="master"/>
   <project name="seL4_libs" path="projects/seL4_libs" revision="3aefef1523debdddb11f66b1d663210f7b3811ce" upstream="master"/>
-  <project name="seL4_tools.git" path="projects/seL4_tools" revision="f03f534f1fdaa5171f0dd233b179a84a86c7d2a4" upstream="master">
+  <project name="seL4_tools.git" path="projects/seL4_tools" revision="1a55798275d672271acfbd03ed060ee862a8ce42" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="a99e2aa528ba541ea95ecc2410df7a8875c776ec" upstream="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="8d891814587df9b2883acafc5ebb28b087776944" upstream="master"/>
 </manifest>
