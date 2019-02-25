@@ -28,7 +28,7 @@
   <project name="camkes-vm.git" path="projects/vm" revision="f88a5ca0762c59491b5b28aa697754fbc626bc2c" upstream="master">
     <linkfile dest="README.md" src="README.md"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="dc5535f769935bf751ea5249bd66e87f4bcb07fd" upstream="master"/>
+  <project name="capdl.git" path="projects/capdl" revision="043ec4b2baa903f497f672e4fad424c68c6797ac" upstream="master"/>
   <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="a64dd318a55be93d8613715d4fc3747d3943a22d" upstream="master"/>
   <project name="libzmq" path="tools/libzmq" remote="zeromq" revision="d062edd8c142384792955796329baf1e5a3377cd" upstream="refs/tags/v4.2.5"/>
   <project name="musllibc.git" path="projects/musllibc" revision="9e288a83f17de80e54af87852674d70f59d6beee" upstream="sel4"/>
