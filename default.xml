@@ -29,11 +29,11 @@
     <linkfile dest="README.md" src="README.md"/>
   </project>
   <project name="capdl.git" path="projects/capdl" revision="dc5535f769935bf751ea5249bd66e87f4bcb07fd" upstream="master"/>
-  <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="49863ed88615f2b65aef24f1fb9b9ead3c95a72f" upstream="master"/>
+  <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="a64dd318a55be93d8613715d4fc3747d3943a22d" upstream="master"/>
   <project name="libzmq" path="tools/libzmq" remote="zeromq" revision="d062edd8c142384792955796329baf1e5a3377cd" upstream="refs/tags/v4.2.5"/>
   <project name="musllibc.git" path="projects/musllibc" revision="9e288a83f17de80e54af87852674d70f59d6beee" upstream="sel4"/>
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
-  <project name="polly" path="tools/polly" remote="polly" revision="d98d0b45e59676d01e5d04e5dbdec7d0fef5bbcf" upstream="master"/>
+  <project name="polly" path="tools/polly" remote="polly" revision="dabca59456de58f2c1dd8acdb66c98f8d632859f" upstream="master"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="2c81a04b7bd3b71a9e89a01205dfc3c394b883e2" upstream="master"/>
   <project name="seL4.git" path="kernel" revision="7bf089c5e49b9c9cc8478b9c84e3d52ea4e4a309" upstream="master"/>
   <project name="seL4_libs" path="projects/seL4_libs" revision="8b8f9f87a2f3af1197b60c99651c00fdb7467353" upstream="master"/>
