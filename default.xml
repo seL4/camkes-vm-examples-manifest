@@ -19,13 +19,13 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="tools/camkes" revision="8ead62d7546d34d33fb37fb91c08caf21755f217" upstream="master">
+  <project name="camkes-tool.git" path="tools/camkes" revision="8e01684a0335d73e8002cc4a2ccb5606e2772bc2" upstream="master">
     <linkfile dest="CMakeLists.txt" src="camkes-top-level.cmake"/>
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
   </project>
   <project name="camkes-vm-examples.git" path="projects/vm-examples" revision="01d29c6996b677e3d75a4ea6c0473e130b97d000" upstream="master"/>
   <project name="camkes-vm-linux.git" path="projects/vm-linux" remote="SEL4PROJ" revision="673964443fe8d064e1708f876e1bb0dec4a25062" upstream="master"/>
-  <project name="camkes-vm.git" path="projects/vm" revision="f88a5ca0762c59491b5b28aa697754fbc626bc2c" upstream="master">
+  <project name="camkes-vm.git" path="projects/vm" revision="95a0bfc11bf3d8d8dd528a3c1370435445a86df7" upstream="master">
     <linkfile dest="README.md" src="README.md"/>
   </project>
   <project name="capdl.git" path="projects/capdl" revision="7c85c7f883616493437641f2e57b5c6de9e78407" upstream="master"/>
@@ -35,7 +35,7 @@
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
   <project name="polly" path="tools/polly" remote="polly" revision="dabca59456de58f2c1dd8acdb66c98f8d632859f" upstream="master"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="2c81a04b7bd3b71a9e89a01205dfc3c394b883e2" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="2943f042a7613446519d9f57fbc96ae6acccec75" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="2fbdf188dcc5ca78af83c075cb2f09ce7c0aaf16" upstream="master"/>
   <project name="seL4_libs" path="projects/seL4_libs" revision="1f6de1ca0b14c709151d1f1f7b55489dc48b18bf" upstream="master"/>
   <project name="seL4_tools.git" path="projects/seL4_tools" revision="48686d13130836b15743544d49b555dd0fd06b29" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
