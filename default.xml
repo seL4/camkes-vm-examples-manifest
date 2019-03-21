@@ -28,7 +28,7 @@
   <project name="camkes-vm.git" path="projects/vm" revision="95a0bfc11bf3d8d8dd528a3c1370435445a86df7" upstream="master">
     <linkfile dest="README.md" src="README.md"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="7c85c7f883616493437641f2e57b5c6de9e78407" upstream="master"/>
+  <project name="capdl.git" path="projects/capdl" revision="f3577815b393f76d72fc151a6766492073a6c8ca" upstream="master"/>
   <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="5c6be3ff7af8a30fde65189d1740428d029c30dc" upstream="master"/>
   <project name="libzmq" path="tools/libzmq" remote="zeromq" revision="d062edd8c142384792955796329baf1e5a3377cd" upstream="refs/tags/v4.2.5"/>
   <project name="musllibc.git" path="projects/musllibc" revision="8927ffb3a6b163fa296dc52851a520b517ce05da" upstream="sel4"/>
@@ -37,7 +37,7 @@
   <project name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="2c81a04b7bd3b71a9e89a01205dfc3c394b883e2" upstream="master"/>
   <project name="seL4.git" path="kernel" revision="c2fd4b810b18111156c8f3273d24f2ab84a06284" upstream="master"/>
   <project name="seL4_libs" path="projects/seL4_libs" revision="1f6de1ca0b14c709151d1f1f7b55489dc48b18bf" upstream="master"/>
-  <project name="seL4_tools.git" path="projects/seL4_tools" revision="3b815049c80b28a8fae4b522399f9ec7d8f3d064" upstream="master">
+  <project name="seL4_tools.git" path="projects/seL4_tools" revision="8355e26e15c552e0bc2742dbcbd0971297f21e39" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
   <project name="util_libs.git" path="projects/util_libs" revision="0c900ae725cf381abdd471b278be481fd5100afe" upstream="master"/>
