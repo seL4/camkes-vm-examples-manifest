@@ -19,7 +19,7 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="tools/camkes" revision="51066f0df958bbd94a02a8c154b143efc59cdebc" upstream="master">
+  <project name="camkes-tool.git" path="tools/camkes" revision="5bfcf8f4b6e91af1fa71eff067a5160b93ceee3a" upstream="master">
     <linkfile dest="CMakeLists.txt" src="camkes-top-level.cmake"/>
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
   </project>
