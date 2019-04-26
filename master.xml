@@ -27,7 +27,9 @@
   <project name="camkes-vm.git" path="projects/vm">
     <linkfile dest="README.md" src="README.md"/>
   </project>
-  <project name="camkes-vm-examples.git" path="projects/vm-examples"/>
+  <project name="camkes-vm-examples.git" path="projects/vm-examples">
+    <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
+  </project>
   <project name="capdl.git" path="projects/capdl"/>
   <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ"/>
   <project name="musllibc.git" path="projects/musllibc" revision="sel4"/>
@@ -35,6 +37,7 @@
   <project name="seL4.git" path="kernel"/>
   <project name="seL4_libs" path="projects/seL4_libs"/>
   <project name="seL4_tools.git" path="projects/seL4_tools">
+    <linkfile dest="griddle" src="cmake-tool/griddle"/>
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
   <project name="util_libs.git" path="projects/util_libs"/>
