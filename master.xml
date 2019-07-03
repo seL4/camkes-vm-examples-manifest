@@ -29,6 +29,7 @@
   </project>
   <project name="camkes-vm-examples.git" path="projects/vm-examples">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
+    <linkfile dest="settings.cmake" src="settings.cmake"/>
   </project>
   <project name="capdl.git" path="projects/capdl"/>
   <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ"/>
