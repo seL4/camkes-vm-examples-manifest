@@ -31,15 +31,15 @@
   <project name="camkes-vm.git" path="projects/vm" revision="845bdadef86626a0b0d90fb6efdea1aecc5637c9" upstream="master">
     <linkfile dest="README.md" src="README.md"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="405e7c14b4a2108dc39398d8ff7460dabc70cd96" upstream="master"/>
+  <project name="capdl.git" path="projects/capdl" revision="fa63beffb8f73a165a186dcfb375d57a6e3d673a" upstream="master"/>
   <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="b68b7c0ddcc19597eceaa9736885d0eb010c9c83" upstream="master"/>
   <project name="libzmq" path="tools/libzmq" remote="zeromq" revision="d062edd8c142384792955796329baf1e5a3377cd" upstream="refs/tags/v4.2.5"/>
   <project name="musllibc.git" path="projects/musllibc" revision="1aaf321083bd4b9c14413a1a82dbd496f5108a1b" upstream="sel4"/>
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
-  <project name="polly" path="tools/polly" remote="polly" revision="9dc145f1d9e7260fb8c7df9d7173cf14d278e2da" upstream="master"/>
+  <project name="polly" path="tools/polly" remote="polly" revision="d000b00807d24d597ded3db1f622d42f407e135f" upstream="master"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="2c81a04b7bd3b71a9e89a01205dfc3c394b883e2" upstream="master"/>
   <project name="seL4.git" path="kernel" revision="5455856dc6c749d14af1430d86293273725504ca" upstream="master"/>
-  <project name="seL4_libs" path="projects/seL4_libs" revision="c16334d764ff6600977398b9e6adacefc3fa6007" upstream="master"/>
+  <project name="seL4_libs" path="projects/seL4_libs" revision="113f7c17275342cd9934a7a8c3917b869d0758bb" upstream="master"/>
   <project name="seL4_tools.git" path="projects/seL4_tools" revision="aad16098f30746cbf885a510265d811275e4b8de" upstream="master">
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
