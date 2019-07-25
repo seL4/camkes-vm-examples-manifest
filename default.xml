@@ -38,9 +38,9 @@
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
   <project name="polly" path="tools/polly" remote="polly" revision="3353896f969ede4daa699ce367601e4d2cf6c81b" upstream="master"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="40fe7a980d1af5776db30e56268057adaaf2525a" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="decd4f87bbc884d69239b5a9e800ea2e2937c28f" upstream="master"/>
-  <project name="seL4_libs" path="projects/seL4_libs" revision="7476936470563282bbfc1cfa2ab766353ef42f44" upstream="master"/>
-  <project name="seL4_tools.git" path="projects/seL4_tools" revision="c63792a661241b3f3c05adbbf90e58223afe547c" upstream="master">
+  <project name="seL4.git" path="kernel" revision="4a37703c034e7e3b0ec9fff913d88fe19abbb89a" upstream="master"/>
+  <project name="seL4_libs" path="projects/seL4_libs" revision="11e4ef23082e9e7eafb086d462b7de5630a7e810" upstream="master"/>
+  <project name="seL4_tools.git" path="projects/seL4_tools" revision="9ac24ff4cefcb8b30f60f7e77b38dafbb90b37a5" upstream="master">
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
