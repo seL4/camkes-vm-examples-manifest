@@ -36,12 +36,12 @@
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
   <project name="polly" path="tools/polly" remote="polly" revision="2fc661a449162c8c3a505aec39d2280ce818cca0" upstream="master"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="8a7d481134b685a66c7a25058f6f1b331dd582f7" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="c25e5445fbc0c7532f36ceb3241e81f025b42970" upstream="master"/>
-  <project name="seL4_libs" path="projects/seL4_libs" revision="60f05c39496bd57bf301bab18983f2abc46aac7b" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="3e83f89990e356b02b227cd883d32ccafa283127" upstream="master"/>
+  <project name="seL4_libs" path="projects/seL4_libs" revision="6e6edea646aa47bdbdc99068da8dcd8b47d384b2" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="86a49071f7ca78038f5b1b96248c362eb8edff3b" upstream="master">
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
   <project name="sel4runtime" path="projects/sel4runtime" remote="SEL4PROJ" revision="4a086d3b2650b4804bf4ebed1e4df6e046181706" upstream="master"/>
-  <project name="util_libs.git" path="projects/util_libs" revision="1c3ae456e30b8c45763a014db215a6395208cd3a" upstream="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="cda8abbed6f9eedb2fb1693eaa686696e1532265" upstream="master"/>
 </manifest>
