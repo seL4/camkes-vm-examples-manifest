@@ -36,7 +36,7 @@
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
   <project name="polly" path="tools/polly" remote="polly" revision="bc1b44e5b79e1202e1f7aebf10fc95615b1f41cc" upstream="master"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="8a7d481134b685a66c7a25058f6f1b331dd582f7" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="b5a39a92a996c7e3356b7f8ee6f382063834d708" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="7889580a7dce3bc21758c39da64d461e5dad8ba4" upstream="master"/>
   <project name="seL4_libs" path="projects/seL4_libs" revision="d7be11ef70788b8f50232b5568088903077c5fae" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="01517aff0b44e93c7caf01fe1c3fc6c93e72c402" upstream="master">
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
