@@ -19,7 +19,7 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="7f5326589a98598615138a70108a2a5f19022561" upstream="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="b216669716ae97af7d6aa6405091b8ba00bc2ef2" upstream="master">
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
   </project>
   <project name="camkes-vm-examples.git" path="projects/vm-examples" revision="3a26d55551c87e1b8d931fafbd26fb9d508174d4" upstream="master">
@@ -35,7 +35,7 @@
   <project name="musllibc.git" path="projects/musllibc" revision="1c6350ea6149e8a6b7de8890c34ba3ed615afe60" upstream="sel4"/>
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
   <project name="polly" path="tools/polly" remote="polly" revision="bc1b44e5b79e1202e1f7aebf10fc95615b1f41cc" upstream="master"/>
-  <project name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="8a7d481134b685a66c7a25058f6f1b331dd582f7" upstream="master"/>
+  <project name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="f92793e07852f8672fe5a4cd7cd4688f56b889cf" upstream="master"/>
   <project name="seL4.git" path="kernel" revision="7889580a7dce3bc21758c39da64d461e5dad8ba4" upstream="master"/>
   <project name="seL4_libs" path="projects/seL4_libs" revision="d7be11ef70788b8f50232b5568088903077c5fae" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="01517aff0b44e93c7caf01fe1c3fc6c93e72c402" upstream="master">
