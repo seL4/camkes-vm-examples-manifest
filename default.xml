@@ -22,7 +22,7 @@
   <project name="camkes-tool.git" path="projects/camkes-tool" revision="b216669716ae97af7d6aa6405091b8ba00bc2ef2" upstream="master">
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
   </project>
-  <project name="camkes-vm-examples.git" path="projects/vm-examples" revision="3a26d55551c87e1b8d931fafbd26fb9d508174d4" upstream="master">
+  <project name="camkes-vm-examples.git" path="projects/vm-examples" revision="e12c971fa2f275d002a65cf2b5401da07d695c5d" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
   <project name="camkes-vm-linux.git" path="projects/vm-linux" remote="SEL4PROJ" revision="1a4e6a0cf4014bff182e7c1e7cca994c8770df76" upstream="master"/>
