@@ -19,7 +19,7 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="27682e998fda03d6c83de2c23ba7854b0c525beb" upstream="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="52ea09cae427b9bd359d8678ae49b21d10d343c0" upstream="master">
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
   </project>
   <project name="camkes-vm-examples.git" path="projects/vm-examples" revision="e12c971fa2f275d002a65cf2b5401da07d695c5d" upstream="master">
@@ -29,14 +29,14 @@
   <project name="camkes-vm.git" path="projects/vm" revision="c021b10b5d037b5cfdb4ced5709da9051e330d2c" upstream="master">
     <linkfile dest="README.md" src="README.md"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="332644f66d689bdd9ff87c737be7c56708d11355" upstream="master"/>
+  <project name="capdl.git" path="projects/capdl" revision="fd0846bf06809a6a904904b65db30845b6f4c0b7" upstream="master"/>
   <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="6b4b5f9650a9a3b0aa7e1151bf82750cb3156e93" upstream="master"/>
   <project name="libzmq" path="projects/libzmq" remote="zeromq" revision="d062edd8c142384792955796329baf1e5a3377cd" upstream="refs/tags/v4.2.5"/>
   <project name="musllibc.git" path="projects/musllibc" revision="1c6350ea6149e8a6b7de8890c34ba3ed615afe60" upstream="sel4"/>
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
   <project name="polly" path="tools/polly" remote="polly" revision="31dd6a7d4beda083b1912347ad52bf2288fc53c2" upstream="master"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="60b20d1d346b1d33cce422ad41822bede72763a8" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="ff216025041bfab6a45080eaabda2ff4af5db3e9" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="e5a986af0ce94aa23fa98f52d63f3dbab77da0b5" upstream="master"/>
   <project name="seL4_libs" path="projects/seL4_libs" revision="c4e061572c9acd2915fa5f1dee10353db391e45a" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="afbad19d98166ff6c2b92696f598e92dc75da6ee" upstream="master">
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
