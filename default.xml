@@ -37,7 +37,7 @@
   <project name="polly" path="tools/polly" remote="polly" revision="31dd6a7d4beda083b1912347ad52bf2288fc53c2" upstream="master"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="a23051769d5e18be7d8f5a1fbf43fd0d6cff523e" upstream="master"/>
   <project name="seL4.git" path="kernel" revision="7eb4147e4369d68a4aa6cd884a4ae816e1ce406b" upstream="master"/>
-  <project name="seL4_libs" path="projects/seL4_libs" revision="f333d1f466ce96a0a47db83ae6dab6299015f653" upstream="master"/>
+  <project name="seL4_libs" path="projects/seL4_libs" revision="dc4b8325fe3804771e9043d29aba6b37b939acec" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="69eb9c48978ceaaec4b0188812e0359b64234c3d" upstream="master">
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
