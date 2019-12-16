@@ -19,7 +19,7 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="15d10aac5476fe12141c43c06ffbdc90bf07fdd4" upstream="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="dc9cd5e5e282e364b1495a83b7f33b5604a9526e" upstream="master">
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
   </project>
   <project name="camkes-vm-examples.git" path="projects/vm-examples" revision="5287af884f1e46dd3ba556af452ace8278400680" upstream="master">
@@ -34,9 +34,9 @@
   <project name="libzmq" path="projects/libzmq" remote="zeromq" revision="d062edd8c142384792955796329baf1e5a3377cd" upstream="refs/tags/v4.2.5"/>
   <project name="musllibc.git" path="projects/musllibc" revision="a0a3af0e3a54fb3985352b4a3160503ecc8c260c" upstream="sel4"/>
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
-  <project name="polly" path="tools/polly" remote="polly" revision="31dd6a7d4beda083b1912347ad52bf2288fc53c2" upstream="master"/>
+  <project name="polly" path="tools/polly" remote="polly" revision="fb86b0063204b50aaa4fac733aa24290b8284cab" upstream="master"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="a23051769d5e18be7d8f5a1fbf43fd0d6cff523e" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="7eb4147e4369d68a4aa6cd884a4ae816e1ce406b" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="5353995516e6e95ee345110bb3e48db9be63dcb2" upstream="master"/>
   <project name="seL4_libs" path="projects/seL4_libs" revision="7ae68ec7f731156efb3bc52e9ff9795c50ca641f" upstream="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="0d35536e58320fed71545b4ad7849bbe155555c3" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="69eb9c48978ceaaec4b0188812e0359b64234c3d" upstream="master">
