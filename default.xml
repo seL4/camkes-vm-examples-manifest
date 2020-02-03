@@ -22,11 +22,11 @@
   <project name="camkes-tool.git" path="projects/camkes-tool" revision="d7aa0224152c47adff9a316b7c25dac6db09767c" upstream="master">
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
   </project>
-  <project name="camkes-vm-examples.git" path="projects/vm-examples" revision="99f77f9530ed92c4dd2b99663206419ce585f74c" upstream="master">
+  <project name="camkes-vm-examples.git" path="projects/vm-examples" revision="670272c1907ca336b66e653c076b0382a30fd716" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
   <project name="camkes-vm-linux.git" path="projects/vm-linux" remote="SEL4PROJ" revision="92274fb4909343bdf242383b5ffa19fe2cf1caa7" upstream="master"/>
-  <project name="camkes-vm.git" path="projects/vm" revision="9824b1211cac873613ec19dad0d722c7ce438c6d" upstream="master">
+  <project name="camkes-vm.git" path="projects/vm" revision="2a9ba3520966b26627403cb0b38b1245d8c56be7" upstream="master">
     <linkfile dest="README.md" src="README.md"/>
   </project>
   <project name="capdl.git" path="projects/capdl" revision="ff50aee8272fc9aaa43cd1cb9835c179a9c5fe70" upstream="master"/>
