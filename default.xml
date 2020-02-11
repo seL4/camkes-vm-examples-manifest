@@ -29,14 +29,14 @@
   <project name="camkes-vm.git" path="projects/vm" revision="a6c59a0b6b2a3a1d23d27a2cb0663ca08c8dd34a" upstream="master">
     <linkfile dest="README.md" src="README.md"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="6aee2c3d346682ccb43eb122b8476ab56daa918c" upstream="master"/>
+  <project name="capdl.git" path="projects/capdl" revision="dd4f121466ea57c5fbe54b170a54f1fa5621d77b" upstream="master"/>
   <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="ec9218c4932551a01ed9a20a3a8ec6629dc72883" upstream="master"/>
   <project name="libzmq" path="projects/libzmq" remote="zeromq" revision="d062edd8c142384792955796329baf1e5a3377cd" upstream="refs/tags/v4.2.5"/>
-  <project name="musllibc.git" path="projects/musllibc" revision="179791f8bbabe0581d2e79261879ec91b144835d" upstream="sel4"/>
+  <project name="musllibc.git" path="projects/musllibc" revision="eb4dcc19b1e2d871e7c2419bdf21e08eccf23993" upstream="sel4"/>
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
   <project name="polly" path="tools/polly" remote="polly" revision="bda457af0149042f09cebce124dec98707a653ab" upstream="master"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="728433df0a165b270171f792562fa6fa363f620d" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="2d40b0d5dfee071574b40c707391a16b9205459a" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="c06df578f206e060076a10c6d1a7cf954a92c8b1" upstream="master"/>
   <project name="seL4_libs" path="projects/seL4_libs" revision="7ae68ec7f731156efb3bc52e9ff9795c50ca641f" upstream="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="ac60baf175960329314f4dcfde8dc70f020a8e11" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="1ba36ce281315994d7d059780000513bb811e63e" upstream="master">
