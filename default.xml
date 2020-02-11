@@ -19,7 +19,7 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="33bc05ea9a34cd8ddb4d1544e2e65dbe0338decf" upstream="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="4b076c4cf123d9daac434e527ae3521d42ec38a5" upstream="master">
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
   </project>
   <project name="camkes-vm-examples.git" path="projects/vm-examples" revision="e1aa1dc66e5cd742886d41d19da590a23c1a47c6" upstream="master">
@@ -29,8 +29,8 @@
   <project name="camkes-vm.git" path="projects/vm" revision="a6c59a0b6b2a3a1d23d27a2cb0663ca08c8dd34a" upstream="master">
     <linkfile dest="README.md" src="README.md"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="dd4f121466ea57c5fbe54b170a54f1fa5621d77b" upstream="master"/>
-  <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="ec9218c4932551a01ed9a20a3a8ec6629dc72883" upstream="master"/>
+  <project name="capdl.git" path="projects/capdl" revision="a66a1b307bebe3399787287cc0b0d437926f89a0" upstream="master"/>
+  <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="49532e6b396d93e65b3f1a2b95d8f9f32cd21bcf" upstream="master"/>
   <project name="libzmq" path="projects/libzmq" remote="zeromq" revision="d062edd8c142384792955796329baf1e5a3377cd" upstream="refs/tags/v4.2.5"/>
   <project name="musllibc.git" path="projects/musllibc" revision="eb4dcc19b1e2d871e7c2419bdf21e08eccf23993" upstream="sel4"/>
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
