@@ -19,7 +19,7 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="9ff575a27a2de04fea9ff7766fdfabf0c97e178b" upstream="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="4b6bf2477575b1fcd94ef8486aa0c2c1b39c35f5" upstream="master">
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
   </project>
   <project name="camkes-vm-examples.git" path="projects/vm-examples" revision="68d5457aa786a3b9097cb1f9a261ac6efd79eb67" upstream="master">
@@ -29,14 +29,14 @@
   <project name="camkes-vm.git" path="projects/vm" revision="49f74a093703927bccc4c1c2bd6c0e2583f4f664" upstream="master">
     <linkfile dest="README.md" src="README.md"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="4a156d56be014dc52366e2bc4f3ab5324b7e83b6" upstream="master"/>
+  <project name="capdl.git" path="projects/capdl" revision="13a1983e8a1b9c0307b5163288c2e1969d44a373" upstream="master"/>
   <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="221417ed93019b6fc63427ecd5a88257a472da99" upstream="master"/>
   <project name="libzmq" path="projects/libzmq" remote="zeromq" revision="d062edd8c142384792955796329baf1e5a3377cd" upstream="refs/tags/v4.2.5"/>
   <project name="musllibc.git" path="projects/musllibc" revision="8a4bddbf499a1c9ff8a064d360dd715ef99ffcab" upstream="sel4"/>
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
   <project name="polly" path="tools/polly" remote="polly" revision="0b3806e193b668fbb9b70c9aa70735b29396323d" upstream="master"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="5fa79f91fab96b17a9b753cca568a3c5969e85a7" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="7ad699e4fbfc233aabf82dd5ede68e4e09802284" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="c0fae570a9445c8c6947bd9e2cb9819714b1b464" upstream="master"/>
   <project name="seL4_libs" path="projects/seL4_libs" revision="1f177036a60d8b473a9c3ffc3858a62e73c2e224" upstream="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="85822cfce9f883c756100189c6fe9b0b551a692a" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="a5de0e555b25655a798bdcdecee154202242da11" upstream="master">
