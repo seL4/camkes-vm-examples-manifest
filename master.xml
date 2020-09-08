@@ -17,6 +17,7 @@
   <remote fetch="https://github.com/tass-belgium" name="picotcp" />
   <remote fetch="https://github.com/ruslo" name="polly" />
   <remote fetch="https://github.com/zeromq" name="zeromq" />
+  <remote fetch="https://git.savannah.gnu.org/git/" name="lwip"/>
 
   <default revision="master" remote="seL4"/>
   
@@ -46,4 +47,5 @@
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" />
   <project name="polly" remote="polly" path="tools/polly" />
   <project name="libzmq" remote="zeromq" path="projects/libzmq" revision="refs/tags/v4.2.5" />
+  <project name="lwip.git" path="projects/lwip" remote="lwip" revision="refs/tags/STABLE-2_1_2_RELEASE"/>
 </manifest>
