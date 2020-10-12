@@ -9,6 +9,9 @@
 
      @TAG(DATA61_BSD)
 -->
+
+* Depreciated: please use https://github.com/SEL4PROJ/camkes-vm-manifest
+
 camkes-vm-examples-manifest
 ==================
 The CAmkES VMM is a Virtual Machine Monitor that utilizes the CAmkES component platform.
