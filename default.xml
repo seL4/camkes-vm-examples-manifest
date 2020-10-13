@@ -30,7 +30,7 @@
   <project dest-branch="master" name="camkes-vm.git" path="projects/vm" revision="382687f3ab4922a56785f312e9e29a13253fea1c" upstream="master">
     <linkfile dest="README.md" src="README.md"/>
   </project>
-  <project dest-branch="master" name="capdl.git" path="projects/capdl" revision="80f8b905e3f7437f099922db0966a125bd2627b7" upstream="master"/>
+  <project dest-branch="master" name="capdl.git" path="projects/capdl" revision="590b53e7d1e7e1978788830444c03f533d22f3fd" upstream="master"/>
   <project dest-branch="master" name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="c46e71c9bfc464509a082df2e5c5c4bc970608e7" upstream="master"/>
   <project dest-branch="refs/tags/v4.2.5" name="libzmq" path="projects/libzmq" remote="zeromq" revision="d062edd8c142384792955796329baf1e5a3377cd" upstream="refs/tags/v4.2.5"/>
   <project dest-branch="refs/tags/STABLE-2_1_2_RELEASE" name="lwip.git" path="projects/lwip" remote="lwip" revision="159e31b689577dbf69cf0683bbaffbd71fa5ee10" upstream="refs/tags/STABLE-2_1_2_RELEASE"/>
@@ -38,7 +38,7 @@
   <project dest-branch="refs/tags/v1.7.0" name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
   <project dest-branch="master" name="polly" path="tools/polly" remote="polly" revision="87f6eac87c181005f8d0c4bc9708e0d1e393b48d" upstream="master"/>
   <project dest-branch="master" name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="947fa8e1723948f2792df33dcd3c43b15aca6296" upstream="master"/>
-  <project dest-branch="master" name="seL4.git" path="kernel" revision="63432c91d54f9a1a1ab1ed278f788ba64ec6dba8" upstream="master"/>
+  <project dest-branch="master" name="seL4.git" path="kernel" revision="40edd02c220249465ce78515d3493eabd7afc59c" upstream="master"/>
   <project dest-branch="master" name="seL4_libs" path="projects/seL4_libs" revision="70dd9243456da78d030fa13af6642ba080b703a2" upstream="master"/>
   <project dest-branch="master" name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="c15bec1db0ebc8eba0659a2a2a3a6c2696b59f17" upstream="master"/>
   <project dest-branch="master" name="seL4_tools.git" path="tools/seL4" revision="ffe3305d8d3926ccfa0fa8019063c786b75850d6" upstream="master">
@@ -46,5 +46,5 @@
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
   <project dest-branch="master" name="sel4runtime" path="projects/sel4runtime" remote="SEL4PROJ" revision="b15a663ceaf7798e39fcba9909fcc5d8359337cf" upstream="master"/>
-  <project dest-branch="master" name="util_libs.git" path="projects/util_libs" revision="f945cf6f3f894a70d5319ecbfa7d6076b836b172" upstream="master"/>
+  <project dest-branch="master" name="util_libs.git" path="projects/util_libs" revision="3e406b59f61bdab51a357b8ff046f77a3116cdd6" upstream="master"/>
 </manifest>
