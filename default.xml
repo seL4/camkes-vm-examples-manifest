@@ -39,7 +39,7 @@
   <project dest-branch="master" name="polly" path="tools/polly" remote="polly" revision="efc64368af4e5c1427ce86a15ff04a766e8f2fcf" upstream="master"/>
   <project dest-branch="master" name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="7fa7d7bf9f02506fc66fb0f2ef60e1b7aa21663b" upstream="master"/>
   <project dest-branch="master" name="seL4.git" path="kernel" revision="b86bce2d4b11f9c4c5cd66c40eb47900bf51eaae" upstream="master"/>
-  <project dest-branch="master" name="seL4_libs" path="projects/seL4_libs" revision="70dd9243456da78d030fa13af6642ba080b703a2" upstream="master"/>
+  <project dest-branch="master" name="seL4_libs" path="projects/seL4_libs" revision="10aec5731527ae9bda801292671cf629649386bd" upstream="master"/>
   <project dest-branch="master" name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="c15bec1db0ebc8eba0659a2a2a3a6c2696b59f17" upstream="master"/>
   <project dest-branch="master" name="seL4_tools.git" path="tools/seL4" revision="ffe3305d8d3926ccfa0fa8019063c786b75850d6" upstream="master">
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
