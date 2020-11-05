@@ -23,25 +23,25 @@
   <project dest-branch="master" name="camkes-tool.git" path="projects/camkes-tool" revision="fa0d94d4a3021ba23b92b07e764d4a3e8d371e6e" upstream="master">
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
   </project>
-  <project dest-branch="master" name="camkes-vm-examples.git" path="projects/vm-examples" revision="3865ea3d3a2d78b9914d4641aca9f5b2a8a3036c" upstream="master">
+  <project dest-branch="master" name="camkes-vm-examples.git" path="projects/vm-examples" revision="c74fac7e0ca5e81f8f65acafa8b8932e093958cc" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
   <project dest-branch="master" name="camkes-vm-linux.git" path="projects/vm-linux" remote="SEL4PROJ" revision="8217f9bde8fb71b42ede2d66632a0555bba139df" upstream="master"/>
   <project dest-branch="master" name="camkes-vm.git" path="projects/vm" revision="382687f3ab4922a56785f312e9e29a13253fea1c" upstream="master">
     <linkfile dest="README.md" src="README.md"/>
   </project>
-  <project dest-branch="master" name="capdl.git" path="projects/capdl" revision="c43be6b80676079305a05dabb7e6e2dcafda86ed" upstream="master"/>
-  <project dest-branch="master" name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="876d8eb8a3a27421f70a150160f33a793d1098bd" upstream="master"/>
+  <project dest-branch="master" name="capdl.git" path="projects/capdl" revision="e08dbb41154a0cfbb5c3560b86564908cf88bc66" upstream="master"/>
+  <project dest-branch="master" name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="34797e42bdfd97ad5757533ac9e291ec03c59e08" upstream="master"/>
   <project dest-branch="refs/tags/v4.2.5" name="libzmq" path="projects/libzmq" remote="zeromq" revision="d062edd8c142384792955796329baf1e5a3377cd" upstream="refs/tags/v4.2.5"/>
   <project dest-branch="refs/tags/STABLE-2_1_2_RELEASE" name="lwip.git" path="projects/lwip" remote="lwip" revision="159e31b689577dbf69cf0683bbaffbd71fa5ee10" upstream="refs/tags/STABLE-2_1_2_RELEASE"/>
   <project dest-branch="sel4" name="musllibc.git" path="projects/musllibc" revision="4a8335b2248d934e2e40386af4f1b0495b3c173d" upstream="sel4"/>
   <project dest-branch="refs/tags/v1.7.0" name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
   <project dest-branch="master" name="polly" path="tools/polly" remote="polly" revision="efc64368af4e5c1427ce86a15ff04a766e8f2fcf" upstream="master"/>
-  <project dest-branch="master" name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="7fa7d7bf9f02506fc66fb0f2ef60e1b7aa21663b" upstream="master"/>
-  <project dest-branch="master" name="seL4.git" path="kernel" revision="b86bce2d4b11f9c4c5cd66c40eb47900bf51eaae" upstream="master"/>
-  <project dest-branch="master" name="seL4_libs" path="projects/seL4_libs" revision="10aec5731527ae9bda801292671cf629649386bd" upstream="master"/>
+  <project dest-branch="master" name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="3c837f36378f06a7d0b6e62c6bbfd358f52a0ee6" upstream="master"/>
+  <project dest-branch="master" name="seL4.git" path="kernel" revision="0101071f70d3eb10af432ffa9594ad445f7e99bb" upstream="master"/>
+  <project dest-branch="master" name="seL4_libs" path="projects/seL4_libs" revision="74de7febfdf927d169bc433f736a5c2b8e30725b" upstream="master"/>
   <project dest-branch="master" name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="c15bec1db0ebc8eba0659a2a2a3a6c2696b59f17" upstream="master"/>
-  <project dest-branch="master" name="seL4_tools.git" path="tools/seL4" revision="ffe3305d8d3926ccfa0fa8019063c786b75850d6" upstream="master">
+  <project dest-branch="master" name="seL4_tools.git" path="tools/seL4" revision="31d847ce5f599c139c51f9a22843b0e2898ba4c5" upstream="master">
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
