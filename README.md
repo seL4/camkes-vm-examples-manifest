@@ -1,21 +1,17 @@
 <!--
-     Copyright 2018, Data61
-     Commonwealth Scientific and Industrial Research Organisation (CSIRO)
-     ABN 41 687 119 230.
+     Copyright 2018, Data61, CSIRO
 
-     This software may be distributed and modified according to the terms of
-     the BSD 2-Clause license. Note that NO WARRANTY is provided.
-     See "LICENSE_BSD2.txt" for details.
-
-     @TAG(DATA61_BSD)
+     SPDX-License-Identifier: CC-BY-SA-4.0
 -->
-camkes-vm-examples-manifest
-==================
+
+CAmkES VM Examples Manifest
+===========================
+
 The CAmkES VMM is a Virtual Machine Monitor that utilizes the CAmkES component platform.
 Due to the static nature of CAmkES systems the VMM is specified at build time to run
 on a particular hardware platform. Currently the VMM is mostly targeted to run on the
 C162 platform from Aitech. There is also a configuration for running on generic x86
-machines, but it has almost no hardware support. 
+machines, but it has almost no hardware support.
 
 This project fetches example CAmkES VM applications to build and use. These being optiplex9020, minimal and cma34cr\_centos.
 
