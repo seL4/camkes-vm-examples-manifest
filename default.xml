@@ -13,7 +13,7 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="fa6ab0b6b6a340e899e875a1c7b1dcc0dcf1bdf9" upstream="master" dest-branch="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="d3a0e82a909976cf6e26d09ddf1668dc1b843e04" upstream="master" dest-branch="master">
     <linkfile src="docs/index.md" dest="camkes_README.md"/>
   </project>
   <project name="camkes-vm-examples.git" path="projects/vm-examples" revision="89f5d7b7ac373c8e9f000e80b91611e561358ef6" upstream="master" dest-branch="master">
@@ -21,7 +21,7 @@
   </project>
   <project name="camkes-vm-images.git" path="projects/camkes-vm-images" revision="69af5316aa39d43d38070984338b334083d2065d" upstream="master" dest-branch="master"/>
   <project name="camkes-vm-linux.git" path="projects/vm-linux" revision="3eafe89fffc3decb385c1ec74c2d744a09b6327e" upstream="master" dest-branch="master"/>
-  <project name="camkes-vm.git" path="projects/vm" revision="2308f1d2e247942e2360fa4337ae91340e0cdf38" upstream="master" dest-branch="master">
+  <project name="camkes-vm.git" path="projects/vm" revision="39734d70d38af597e459f4923c75db95508d9661" upstream="master" dest-branch="master">
     <linkfile src="README.md" dest="README.md"/>
   </project>
   <project name="capdl.git" path="projects/capdl" revision="55507a13e9314c1bf9a47e3ad3a17897d8c80dcc" upstream="master" dest-branch="master"/>
