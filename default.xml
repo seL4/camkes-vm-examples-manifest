@@ -16,7 +16,7 @@
   <project name="camkes-tool.git" path="projects/camkes-tool" revision="d3a0e82a909976cf6e26d09ddf1668dc1b843e04" upstream="master" dest-branch="master">
     <linkfile src="docs/index.md" dest="camkes_README.md"/>
   </project>
-  <project name="camkes-vm-examples.git" path="projects/vm-examples" revision="89f5d7b7ac373c8e9f000e80b91611e561358ef6" upstream="master" dest-branch="master">
+  <project name="camkes-vm-examples.git" path="projects/vm-examples" revision="5ea1a3659ba33dd0864b98653d3f0f4659b712f6" upstream="master" dest-branch="master">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
   </project>
   <project name="camkes-vm-images.git" path="projects/camkes-vm-images" revision="69af5316aa39d43d38070984338b334083d2065d" upstream="master" dest-branch="master"/>
@@ -32,7 +32,7 @@
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0" dest-branch="refs/tags/v1.7.0"/>
   <project name="polly" path="tools/polly" remote="polly" revision="ef7e79c2c297d456f2742fd0b976f555d058d4e0" upstream="master" dest-branch="master"/>
   <project name="projects_libs.git" path="projects/projects_libs" revision="baf58d797b2e89da637367da25229a1acfdad06f" upstream="master" dest-branch="master"/>
-  <project name="seL4.git" path="kernel" revision="8035f1a7c41ea34cc9886e53854f57554785beb3" upstream="master" dest-branch="master"/>
+  <project name="seL4.git" path="kernel" revision="d3e9880ef6355eae13c35fc72d387deeb3a90ca3" upstream="master" dest-branch="master"/>
   <project name="seL4_libs" path="projects/seL4_libs" revision="bc943c9917ca02c21f162e76938b86a8325c64d9" upstream="master" dest-branch="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" revision="a6fbc13c792ef518e5bcf1da69c8d27b6cd19814" upstream="master" dest-branch="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="553086aab4c9fb9c4869060fe51a3e95c20ce454" upstream="master" dest-branch="master">
