@@ -32,7 +32,7 @@
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0" dest-branch="refs/tags/v1.7.0"/>
   <project name="polly" path="tools/polly" remote="polly" revision="ef7e79c2c297d456f2742fd0b976f555d058d4e0" upstream="master" dest-branch="master"/>
   <project name="projects_libs.git" path="projects/projects_libs" revision="ff11dd472c79c2a2c9e09910b85d0fc2f965670d" upstream="master" dest-branch="master"/>
-  <project name="seL4.git" path="kernel" revision="19f0fea91ddaa07549629e565b7ef0a852cbb944" upstream="master" dest-branch="master"/>
+  <project name="seL4.git" path="kernel" revision="324f833a0d71c01522aa69840af5af59066101de" upstream="master" dest-branch="master"/>
   <project name="seL4_libs" path="projects/seL4_libs" revision="d8ae2c44e92d1bf19891344eb038752565f0b30e" upstream="master" dest-branch="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" revision="b687e3d503ed685634713eae868b220bdcda8261" upstream="master" dest-branch="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="ef887ccdcf36ced905ec4198819163b12e519a3c" upstream="master" dest-branch="master">
