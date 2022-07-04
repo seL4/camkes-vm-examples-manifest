@@ -10,7 +10,7 @@
   <remote name="polly" fetch="https://github.com/ruslo"/>
   <remote name="seL4" fetch="../seL4"/>
   <remote name="zeromq" fetch="https://github.com/zeromq"/>
-  
+
   <default remote="seL4" revision="master"/>
   
   <project name="camkes-tool.git" path="projects/camkes-tool" revision="dcc5193bfa496e175ea3dc4c69caec04ce21a170" upstream="master" dest-branch="master">
