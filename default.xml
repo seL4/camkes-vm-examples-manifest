@@ -4,7 +4,6 @@
    SPDX-License-Identifier: BSD-2-Clause
 -->
 <manifest>
-  <remote name="SEL4PROJ" fetch="../SEL4PROJ"/>
   <remote name="lwip" fetch="https://git.savannah.gnu.org/git/"/>
   <remote name="picotcp" fetch="https://github.com/tass-belgium"/>
   <remote name="polly" fetch="https://github.com/ruslo"/>
