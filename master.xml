@@ -6,7 +6,6 @@
 -->
 <manifest>
 
-  <remote fetch="../SEL4PROJ" name="SEL4PROJ"/>
   <remote fetch="../seL4" name="seL4"/>
   <remote fetch="https://github.com/tass-belgium" name="picotcp" />
   <remote fetch="https://github.com/ruslo" name="polly" />
