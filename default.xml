@@ -24,7 +24,7 @@
   <project name="camkes-vm.git" path="projects/vm" revision="75801fd5b4d277c80224a02b143e9a69625a7b51" upstream="master" dest-branch="master">
     <linkfile src="README.md" dest="README.md"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="a9419eaa4c2f3d7f9dfaf380e2400836ca6316fa" upstream="master" dest-branch="master"/>
+  <project name="capdl.git" path="projects/capdl" revision="3fa3a1b5b57c67175d109e2fe15a42aa641ee601" upstream="master" dest-branch="master"/>
   <project name="global-components.git" path="projects/global-components" revision="9dfd54c4c07d3ba30f75bdc993fdb9ffcbe90f92" upstream="master" dest-branch="master"/>
   <project name="libzmq" path="projects/libzmq" remote="zeromq" revision="d062edd8c142384792955796329baf1e5a3377cd" upstream="refs/tags/v4.2.5" dest-branch="refs/tags/v4.2.5"/>
   <project name="lwip.git" path="projects/lwip" remote="lwip" revision="159e31b689577dbf69cf0683bbaffbd71fa5ee10" upstream="refs/tags/STABLE-2_1_2_RELEASE" dest-branch="refs/tags/STABLE-2_1_2_RELEASE"/>
