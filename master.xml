@@ -18,10 +18,10 @@
   <project name="camkes-tool.git" path="projects/camkes-tool">
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
   </project>
-  <project name="camkes-vm.git" path="projects/vm">
+  <project name="camkes-vm.git" path="projects/vm" revision="jade/supermicro">
     <linkfile dest="README.md" src="README.md"/>
   </project>
-  <project name="camkes-vm-examples.git" path="projects/vm-examples">
+  <project name="camkes-vm-examples.git" path="projects/vm-examples" revision="jade/supermicro">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
   <project name="camkes-vm-images.git" path="projects/camkes-vm-images"/>
@@ -36,7 +36,7 @@
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="jade/pciscan"/>
   <project name="projects_libs.git" path="projects/projects_libs"/>
   <project name="camkes-vm-linux.git" path="projects/vm-linux"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs"/>
