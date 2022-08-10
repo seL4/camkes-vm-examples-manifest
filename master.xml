@@ -38,7 +38,7 @@
   </project>
   <project name="util_libs.git" path="projects/util_libs"/>
   <project name="projects_libs.git" path="projects/projects_libs"/>
-  <project name="camkes-vm-linux.git" path="projects/vm-linux"/>
+  <project name="camkes-vm-linux.git" path="projects/vm-linux" revision="ivanv/supermicro"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs"/>
   <project name="polly" remote="polly" path="tools/polly" />
   <project name="libzmq" remote="zeromq" path="projects/libzmq" revision="refs/tags/v4.2.5" />
