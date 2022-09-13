@@ -1,44 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-   Copyright 2022 seL4 Project a Series of LF Projects, LLC
-   SPDX-License-Identifier: BSD-2-Clause
+     Copyright 2018, Data61, CSIRO
+
+     SPDX-License-Identifier: BSD-2-Clause
 -->
 <manifest>
-  <remote name="SEL4PROJ" fetch="../SEL4PROJ"/>
-  <remote name="lwip" fetch="https://git.savannah.gnu.org/git/"/>
-  <remote name="picotcp" fetch="https://github.com/tass-belgium"/>
-  <remote name="polly" fetch="https://github.com/ruslo"/>
-  <remote name="seL4" fetch="../seL4"/>
-  <remote name="zeromq" fetch="https://github.com/zeromq"/>
-  
-  <default remote="seL4" revision="master"/>
-  
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="a85c16737e9e8da969a428e70a131986a966ba52" upstream="master" dest-branch="master">
-    <linkfile src="docs/index.md" dest="camkes_README.md"/>
+
+  <remote fetch="../SEL4PROJ" name="SEL4PROJ"/>
+  <remote fetch="../seL4" name="seL4"/>
+  <remote fetch="https://github.com/tass-belgium" name="picotcp" />
+  <remote fetch="https://github.com/ruslo" name="polly" />
+  <remote fetch="https://github.com/zeromq" name="zeromq" />
+  <remote fetch="https://git.savannah.gnu.org/git/" name="lwip"/>
+  <remote fetch="https://github.com/andybui01" name="andyb" />
+
+  <default revision="master" remote="seL4"/>
+
+  <project name="camkes-tool.git" remote="andyb" path="projects/camkes-tool" revision="andyb/virtio">
+    <linkfile dest="camkes_README.md" src="docs/index.md"/>
   </project>
-  <project name="camkes-vm-examples.git" path="projects/vm-examples" revision="9f0a5344a6e24ea3ec9c2e0c99aec5938ef2b244" upstream="master" dest-branch="master">
-    <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
+  <project name="camkes-vm.git" remote="andyb" path="projects/vm" revision="andyb/virtio">
+    <linkfile dest="README.md" src="README.md"/>
   </project>
-  <project name="camkes-vm-images.git" path="projects/camkes-vm-images" revision="69af5316aa39d43d38070984338b334083d2065d" upstream="master" dest-branch="master"/>
-  <project name="camkes-vm-linux.git" path="projects/vm-linux" revision="d36958f7c4b610d555eb9ab63599b6e3ec36ea47" upstream="master" dest-branch="master"/>
-  <project name="camkes-vm.git" path="projects/vm" revision="75801fd5b4d277c80224a02b143e9a69625a7b51" upstream="master" dest-branch="master">
-    <linkfile src="README.md" dest="README.md"/>
+  <project name="camkes-vm-examples.git" remote="andyb" path="projects/vm-examples" revision="andyb/virtio">
+    <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="3fa3a1b5b57c67175d109e2fe15a42aa641ee601" upstream="master" dest-branch="master"/>
-  <project name="global-components.git" path="projects/global-components" revision="9dfd54c4c07d3ba30f75bdc993fdb9ffcbe90f92" upstream="master" dest-branch="master"/>
-  <project name="libzmq" path="projects/libzmq" remote="zeromq" revision="d062edd8c142384792955796329baf1e5a3377cd" upstream="refs/tags/v4.2.5" dest-branch="refs/tags/v4.2.5"/>
-  <project name="lwip.git" path="projects/lwip" remote="lwip" revision="159e31b689577dbf69cf0683bbaffbd71fa5ee10" upstream="refs/tags/STABLE-2_1_2_RELEASE" dest-branch="refs/tags/STABLE-2_1_2_RELEASE"/>
-  <project name="musllibc.git" path="projects/musllibc" revision="3d6b939e8f05cb1d2a1a8c8166609bf2e652e975" upstream="sel4" dest-branch="sel4"/>
-  <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0" dest-branch="refs/tags/v1.7.0"/>
-  <project name="polly" path="tools/polly" remote="polly" revision="ef7e79c2c297d456f2742fd0b976f555d058d4e0" upstream="master" dest-branch="master"/>
-  <project name="projects_libs.git" path="projects/projects_libs" revision="abd5ea88f2b6463d7e6eac94b1b79792422fc5a1" upstream="master" dest-branch="master"/>
-  <project name="seL4.git" path="kernel" revision="c92b3b3163d73a5d663c20568391408b40216cd6" upstream="master" dest-branch="master"/>
-  <project name="seL4_libs" path="projects/seL4_libs" revision="c5a599ef6c580a8a232aef23043ec426867e5e16" upstream="master" dest-branch="master"/>
-  <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" revision="39c5097e3b8ec8d84513d4f2a9a342650cf21a50" upstream="master" dest-branch="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="9eef25ad10295d7ccddf6b46fa12318f0cff6dcb" upstream="master" dest-branch="master">
-    <linkfile src="cmake-tool/griddle" dest="griddle"/>
-    <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
+  <project name="camkes-vm-images.git" path="projects/camkes-vm-images"/>
+  <project name="capdl.git" path="projects/capdl"/>
+  <project name="global-components.git" remote="andyb" path="projects/global-components" revision="virtiocon-multiplex"/>
+  <project name="musllibc.git" path="projects/musllibc" revision="sel4"/>
+  <project name="sel4runtime" path="projects/sel4runtime"/>
+  <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="refs/tags/v1.7.0"/>
+  <project name="seL4.git" path="kernel"/>
+  <project name="seL4_libs" path="projects/seL4_libs"/>
+  <project name="seL4_tools.git" path="tools/seL4">
+    <linkfile dest="griddle" src="cmake-tool/griddle"/>
+    <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
-  <project name="sel4runtime" path="projects/sel4runtime" revision="d935dd05da0cf959e9fd0140af913dc6fdaa0221" upstream="master" dest-branch="master"/>
-  <project name="util_libs.git" path="projects/util_libs" revision="76873a35ca4280c86eac230d40c221201db86e15" upstream="master" dest-branch="master"/>
+  <project name="util_libs.git" remote="andyb" path="projects/util_libs" revision="andyb/virtio"/>
+  <project name="projects_libs.git" path="projects/projects_libs"/>
+  <project name="camkes-vm-linux.git" path="projects/vm-linux" revision="ivanv/supermicro"/>
+  <project name="seL4_projects_libs.git" remote="andyb" path="projects/seL4_projects_libs" revision="andyb/virtio"/>
+  <project name="polly" remote="polly" path="tools/polly" />
+  <project name="libzmq" remote="zeromq" path="projects/libzmq" revision="refs/tags/v4.2.5" />
+  <project name="lwip.git" path="projects/lwip" remote="lwip" revision="refs/tags/STABLE-2_1_2_RELEASE"/>
 </manifest>

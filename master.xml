@@ -16,13 +16,13 @@
 
   <default revision="master" remote="seL4"/>
 
-  <project name="camkes-tool.git" path="projects/camkes-tool">
+  <project name="camkes-tool.git" remote="andyb" path="projects/camkes-tool" revision="andyb/virtio">
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
   </project>
-  <project name="camkes-vm.git" remote="andyb" path="projects/vm" revision="andyb/virtio-multiplex">
+  <project name="camkes-vm.git" remote="andyb" path="projects/vm" revision="andyb/virtio">
     <linkfile dest="README.md" src="README.md"/>
   </project>
-  <project name="camkes-vm-examples.git" remote="andyb" path="projects/vm-examples" revision="jade/supermicro">
+  <project name="camkes-vm-examples.git" remote="andyb" path="projects/vm-examples" revision="andyb/virtio">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
   <project name="camkes-vm-images.git" path="projects/camkes-vm-images"/>
@@ -37,10 +37,10 @@
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
-  <project name="util_libs.git" remote="andyb" path="projects/util_libs" revision="andyb/virtio-multiplex"/>
+  <project name="util_libs.git" remote="andyb" path="projects/util_libs" revision="andyb/virtio"/>
   <project name="projects_libs.git" path="projects/projects_libs"/>
   <project name="camkes-vm-linux.git" path="projects/vm-linux" revision="ivanv/supermicro"/>
-  <project name="seL4_projects_libs.git" remote="andyb" path="projects/seL4_projects_libs" revision="virtiocon-multiplex"/>
+  <project name="seL4_projects_libs.git" remote="andyb" path="projects/seL4_projects_libs" revision="andyb/virtio"/>
   <project name="polly" remote="polly" path="tools/polly" />
   <project name="libzmq" remote="zeromq" path="projects/libzmq" revision="refs/tags/v4.2.5" />
   <project name="lwip.git" path="projects/lwip" remote="lwip" revision="refs/tags/STABLE-2_1_2_RELEASE"/>
