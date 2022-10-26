@@ -19,12 +19,12 @@
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
   </project>
   <project name="camkes-vm-images.git" path="projects/camkes-vm-images" revision="69af5316aa39d43d38070984338b334083d2065d" upstream="master" dest-branch="master"/>
-  <project name="camkes-vm-linux.git" path="projects/vm-linux" revision="cf8157fe9fda06b63f7e0f5b93391105ddcb8d04" upstream="master" dest-branch="master"/>
-  <project name="camkes-vm.git" path="projects/vm" revision="c681974c6b36d2322cd74e4b67665b9438f2e2c5" upstream="master" dest-branch="master">
+  <project name="camkes-vm-linux.git" path="projects/vm-linux" revision="46fb8b6e450eebf0f78adcd45d73fdba48c960bf" upstream="master" dest-branch="master"/>
+  <project name="camkes-vm.git" path="projects/vm" revision="8ac3ee8068bbbace3bbb7bd19a1db9a4a3ead15b" upstream="master" dest-branch="master">
     <linkfile src="README.md" dest="README.md"/>
   </project>
   <project name="capdl.git" path="projects/capdl" revision="3fa3a1b5b57c67175d109e2fe15a42aa641ee601" upstream="master" dest-branch="master"/>
-  <project name="global-components.git" path="projects/global-components" revision="b7f15666a09339b688f5402b96909392c3cbf93c" upstream="master" dest-branch="master"/>
+  <project name="global-components.git" path="projects/global-components" revision="f59781a5b3cb9469bdfc392043098a9e9c89a344" upstream="master" dest-branch="master"/>
   <project name="libzmq" path="projects/libzmq" remote="zeromq" revision="d062edd8c142384792955796329baf1e5a3377cd" upstream="refs/tags/v4.2.5" dest-branch="refs/tags/v4.2.5"/>
   <project name="lwip.git" path="projects/lwip" remote="lwip" revision="159e31b689577dbf69cf0683bbaffbd71fa5ee10" upstream="refs/tags/STABLE-2_1_2_RELEASE" dest-branch="refs/tags/STABLE-2_1_2_RELEASE"/>
   <project name="musllibc.git" path="projects/musllibc" revision="3d6b939e8f05cb1d2a1a8c8166609bf2e652e975" upstream="sel4" dest-branch="sel4"/>
