@@ -31,13 +31,13 @@
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0" dest-branch="refs/tags/v1.7.0"/>
   <project name="polly" path="tools/polly" remote="polly" revision="ef7e79c2c297d456f2742fd0b976f555d058d4e0" upstream="master" dest-branch="master"/>
   <project name="projects_libs.git" path="projects/projects_libs" revision="daa7e44e0e6f0d5c80a9167380b1b16fd1ec7549" upstream="master" dest-branch="master"/>
-  <project name="seL4.git" path="kernel" revision="3bb6bc2a606b85755eb49f9f95e84dac5cd535c7" upstream="master" dest-branch="master"/>
+  <project name="seL4.git" path="kernel" revision="bbafa62d3008fa4cdaa0533aa238047ec2ebd711" upstream="master" dest-branch="master"/>
   <project name="seL4_libs" path="projects/seL4_libs" revision="19cd448e8d85df301c25e1c73a6bc0c246390e6d" upstream="master" dest-branch="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" revision="9a64b59f85a8e9dcdfc644e269f1294f75229f48" upstream="master" dest-branch="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="3811f43c70b6ae7eabd35a8367f81b341aca1e35" upstream="master" dest-branch="master">
+  <project name="seL4_tools.git" path="tools/seL4" revision="074a54aedcef97bfcc4ea0724a4c5d75fa311b3e" upstream="master" dest-branch="master">
     <linkfile src="cmake-tool/griddle" dest="griddle"/>
     <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
   </project>
   <project name="sel4runtime" path="projects/sel4runtime" revision="d935dd05da0cf959e9fd0140af913dc6fdaa0221" upstream="master" dest-branch="master"/>
-  <project name="util_libs.git" path="projects/util_libs" revision="b96c122d917539276e68b9e52f07cde94b7ac979" upstream="master" dest-branch="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="da5f0ae506eb8fa92a9f0573a049e21a78c0f075" upstream="master" dest-branch="master"/>
 </manifest>
