@@ -20,7 +20,7 @@
   </project>
   <project name="camkes-vm-images.git" path="projects/camkes-vm-images" revision="69af5316aa39d43d38070984338b334083d2065d" upstream="master" dest-branch="master"/>
   <project name="camkes-vm-linux.git" path="projects/vm-linux" revision="46fb8b6e450eebf0f78adcd45d73fdba48c960bf" upstream="master" dest-branch="master"/>
-  <project name="camkes-vm.git" path="projects/vm" revision="c023ba1bd56e573ea50b44fe4f07cd28dbee3776" upstream="master" dest-branch="master">
+  <project name="camkes-vm.git" path="projects/vm" revision="1c7d86abbad3008c46f572d30d0f4a432f91b129" upstream="master" dest-branch="master">
     <linkfile src="README.md" dest="README.md"/>
   </project>
   <project name="capdl.git" path="projects/capdl" revision="c196c882219eec37df88830e20ea6b86727b1111" upstream="master" dest-branch="master"/>
