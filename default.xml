@@ -19,7 +19,7 @@
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
   </project>
   <project name="camkes-vm-images.git" path="projects/camkes-vm-images" revision="69af5316aa39d43d38070984338b334083d2065d" upstream="master" dest-branch="master"/>
-  <project name="camkes-vm-linux.git" path="projects/vm-linux" revision="46fb8b6e450eebf0f78adcd45d73fdba48c960bf" upstream="master" dest-branch="master"/>
+  <project name="camkes-vm-linux.git" path="projects/vm-linux" revision="ed9ce4cd7ba256b3835eef592a6604449d37f9cd" upstream="master" dest-branch="master"/>
   <project name="camkes-vm.git" path="projects/vm" revision="1c7d86abbad3008c46f572d30d0f4a432f91b129" upstream="master" dest-branch="master">
     <linkfile src="README.md" dest="README.md"/>
   </project>
