@@ -15,7 +15,7 @@
   <project name="camkes-tool.git" path="projects/camkes-tool" revision="89af7196bd088c04a1875271a73ade4b4959368e" upstream="master" dest-branch="master">
     <linkfile src="docs/index.md" dest="camkes_README.md"/>
   </project>
-  <project name="camkes-vm-examples.git" path="projects/vm-examples" revision="d65d6ce0dc13cc8f10bdfcfdb333ec56626bbdb7" upstream="master" dest-branch="master">
+  <project name="camkes-vm-examples.git" path="projects/vm-examples" revision="15613661cb5123724097af45a1296b9fd26da2e6" upstream="master" dest-branch="master">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
   </project>
   <project name="camkes-vm-images.git" path="projects/camkes-vm-images" revision="e67cfbca3c88391c05b1e2a7a9b7301a409d26a7" upstream="master" dest-branch="master"/>
@@ -34,7 +34,7 @@
   <project name="seL4.git" path="kernel" revision="241d8d12c7ce99ec87147ba72b692716cb1c118f" upstream="master" dest-branch="master"/>
   <project name="seL4_libs" path="projects/seL4_libs" revision="f3443015111db398747b05b74f0668bb4c92044e" upstream="master" dest-branch="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" revision="0d46afe203cda3f85ed2d86fb3ba5fe2e181e554" upstream="master" dest-branch="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="b65ed8f5f50ef28f2ebe5039238af2ad58d3439c" upstream="master" dest-branch="master">
+  <project name="seL4_tools.git" path="tools/seL4" revision="5e2506bc575e841f5c02affb7fb57728afb75623" upstream="master" dest-branch="master">
     <linkfile src="cmake-tool/griddle" dest="griddle"/>
     <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
   </project>
