@@ -15,12 +15,12 @@
   <project name="camkes-tool.git" path="projects/camkes-tool" revision="89af7196bd088c04a1875271a73ade4b4959368e" upstream="master" dest-branch="master">
     <linkfile src="docs/index.md" dest="camkes_README.md"/>
   </project>
-  <project name="camkes-vm-examples.git" path="projects/vm-examples" revision="a4c949fddb91f6782299e2de40af384171145a24" upstream="master" dest-branch="master">
+  <project name="camkes-vm-examples.git" path="projects/vm-examples" revision="34f83da178dc14e47748a767bf02322c2e912a54" upstream="master" dest-branch="master">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
   </project>
   <project name="camkes-vm-images.git" path="projects/camkes-vm-images" revision="627a43b5b19a8149175ab3d7d45bb32f5e1680cb" upstream="master" dest-branch="master"/>
   <project name="camkes-vm-linux.git" path="projects/vm-linux" revision="ed9ce4cd7ba256b3835eef592a6604449d37f9cd" upstream="master" dest-branch="master"/>
-  <project name="camkes-vm.git" path="projects/vm" revision="202393424063cc143a23b6f954b929e31de7ef43" upstream="master" dest-branch="master">
+  <project name="camkes-vm.git" path="projects/vm" revision="b3e73a59642869eb715768e6659e707ab64a99a7" upstream="master" dest-branch="master">
     <linkfile src="README.md" dest="README.md"/>
   </project>
   <project name="capdl.git" path="projects/capdl" revision="3d423db87c05af366116db576bdee1c8f55c73ed" upstream="master" dest-branch="master"/>
