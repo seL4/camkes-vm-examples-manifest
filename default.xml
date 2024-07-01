@@ -12,7 +12,7 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="0863c1447ffa914d540e79d2ad696edd4c39fcf6" upstream="master" dest-branch="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="5dd53c71f73a25f9673b77be43c918eefcd1dbb4" upstream="master" dest-branch="master">
     <linkfile src="docs/index.md" dest="camkes_README.md"/>
   </project>
   <project name="camkes-vm-examples.git" path="projects/vm-examples" revision="977022b13b93c1eb36f399db63abbe6e0157e7f9" upstream="master" dest-branch="master">
@@ -23,7 +23,7 @@
   <project name="camkes-vm.git" path="projects/vm" revision="64690e8db397f69ece88866e79a9f2942c3c7015" upstream="master" dest-branch="master">
     <linkfile src="README.md" dest="README.md"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="5d0c378d8edf2c4cc2d90c07cac57030186e03c0" upstream="master" dest-branch="master"/>
+  <project name="capdl.git" path="projects/capdl" revision="8caade9a2791997a1664bc3d0518ef5df3ae72c4" upstream="master" dest-branch="master"/>
   <project name="global-components.git" path="projects/global-components" revision="0a53b39805f44870b65bd33dfe7535a8856de281" upstream="master" dest-branch="master"/>
   <project name="libzmq" path="projects/libzmq" remote="zeromq" revision="d062edd8c142384792955796329baf1e5a3377cd" upstream="refs/tags/v4.2.5" dest-branch="refs/tags/v4.2.5"/>
   <project name="lwip.git" path="projects/lwip" remote="lwip" revision="159e31b689577dbf69cf0683bbaffbd71fa5ee10" upstream="refs/tags/STABLE-2_1_2_RELEASE" dest-branch="refs/tags/STABLE-2_1_2_RELEASE"/>
