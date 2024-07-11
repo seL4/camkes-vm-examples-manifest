@@ -23,7 +23,7 @@
   <project name="camkes-vm.git" path="projects/vm" revision="64690e8db397f69ece88866e79a9f2942c3c7015" upstream="master" dest-branch="master">
     <linkfile src="README.md" dest="README.md"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="8caade9a2791997a1664bc3d0518ef5df3ae72c4" upstream="master" dest-branch="master"/>
+  <project name="capdl.git" path="projects/capdl" revision="ed79353dfc87e438b7fe26822e5e907993893a40" upstream="master" dest-branch="master"/>
   <project name="global-components.git" path="projects/global-components" revision="0a53b39805f44870b65bd33dfe7535a8856de281" upstream="master" dest-branch="master"/>
   <project name="libzmq" path="projects/libzmq" remote="zeromq" revision="d062edd8c142384792955796329baf1e5a3377cd" upstream="refs/tags/v4.2.5" dest-branch="refs/tags/v4.2.5"/>
   <project name="lwip.git" path="projects/lwip" remote="lwip" revision="159e31b689577dbf69cf0683bbaffbd71fa5ee10" upstream="refs/tags/STABLE-2_1_2_RELEASE" dest-branch="refs/tags/STABLE-2_1_2_RELEASE"/>
@@ -31,7 +31,7 @@
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0" dest-branch="refs/tags/v1.7.0"/>
   <project name="polly" path="tools/polly" remote="polly" revision="ef7e79c2c297d456f2742fd0b976f555d058d4e0" upstream="master" dest-branch="master"/>
   <project name="projects_libs.git" path="projects/projects_libs" revision="1e7f0b6ec0405b3288c606fd7e782660ace4aa07" upstream="master" dest-branch="master"/>
-  <project name="seL4.git" path="kernel" revision="4b7c2a315faf6a4eb249c3b419fb4599853096ba" upstream="master" dest-branch="master"/>
+  <project name="seL4.git" path="kernel" revision="9567675c2b40d047aadb91e45e7ea9da7c2e6e1e" upstream="master" dest-branch="master"/>
   <project name="seL4_libs" path="projects/seL4_libs" revision="fcabdef37016cd568a40c82e0d97a264b86ee6d4" upstream="master" dest-branch="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" revision="97360824eebc80e9a68fef9ef699f3c0ff8bd792" upstream="master" dest-branch="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="f43fe9353fee26e33cc92579082c37742a8a5992" upstream="master" dest-branch="master">
