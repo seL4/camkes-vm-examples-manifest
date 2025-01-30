@@ -15,7 +15,7 @@ machines, but it has almost no hardware support.
 
 This project fetches example CAmkES VM applications to build and use. These being optiplex9020, minimal and cma34cr\_centos.
 
-For general instructions on how to use this repository, see [docs.seL4.systems](https://docs.sel4.systems/GettingStarted.html).
+For general instructions on how to use this repository, see [docs.seL4.systems](https://docs.sel4.systems/Resources.html).
 
 For general information about CAmkES see [the CAmkES pages on docs.seL4.systems](https://docs.sel4.systems/CAmkES/).
 
