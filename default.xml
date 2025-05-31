@@ -39,5 +39,5 @@
     <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
   </project>
   <project name="sel4runtime" path="projects/sel4runtime" revision="86489cf6efab9f314964e79468c036e9035394c7" upstream="master" dest-branch="master"/>
-  <project name="util_libs.git" path="projects/util_libs" revision="da8eb0a640e79c71522647898c6b161977a40def" upstream="master" dest-branch="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="f8ac370203d8b65cfd4b573fdd1f27c4850351df" upstream="master" dest-branch="master"/>
 </manifest>
