@@ -12,19 +12,19 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="7ce8ef4ef82e51461b0dd4d169c3c8aaa1b7b9c4" upstream="master" dest-branch="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="d95067cc22dab74fd483940d51c8c3b48f9b33d7" upstream="master" dest-branch="master">
     <linkfile src="docs/index.md" dest="camkes_README.md"/>
   </project>
   <project name="camkes-vm-examples.git" path="projects/vm-examples" revision="3457f046925b0e9bad68b1f85d71c2302e3aa070" upstream="master" dest-branch="master">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
   </project>
   <project name="camkes-vm-images.git" path="projects/camkes-vm-images" revision="bafad64282c14d0bbf15468bfd6265e648d87d6c" upstream="master" dest-branch="master"/>
-  <project name="camkes-vm-linux.git" path="projects/vm-linux" revision="608ff1861ad3b9ebccbe3576dab5777691fca1f6" upstream="master" dest-branch="master"/>
-  <project name="camkes-vm.git" path="projects/vm" revision="3dd34a480ba55e10a684d3c6e06e7bc158226ed7" upstream="master" dest-branch="master">
+  <project name="camkes-vm-linux.git" path="projects/vm-linux" revision="47fea56ac917c8542f8e8c5ad5308f3e22480c90" upstream="master" dest-branch="master"/>
+  <project name="camkes-vm.git" path="projects/vm" revision="ad66b659b31277384e96f7fc1b9ad93b350e575f" upstream="master" dest-branch="master">
     <linkfile src="README.md" dest="README.md"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="c5e2dcd65f43fde34cae5535ac050e69dcaeab3b" upstream="master" dest-branch="master"/>
-  <project name="global-components.git" path="projects/global-components" revision="e4fbff83ce2998c93c24d59d8b4e0f6c3ff840d8" upstream="master" dest-branch="master"/>
+  <project name="capdl.git" path="projects/capdl" revision="9d4ca9a9c2cbd1aaa759cd7ea59bf7e0f65437bd" upstream="master" dest-branch="master"/>
+  <project name="global-components.git" path="projects/global-components" revision="ad0d2891ff5f15a37de2980e103b7024960b5a26" upstream="master" dest-branch="master"/>
   <project name="libzmq" path="projects/libzmq" remote="zeromq" revision="d062edd8c142384792955796329baf1e5a3377cd" upstream="refs/tags/v4.2.5" dest-branch="refs/tags/v4.2.5"/>
   <project name="lwip.git" path="projects/lwip" remote="lwip" revision="159e31b689577dbf69cf0683bbaffbd71fa5ee10" upstream="refs/tags/STABLE-2_1_2_RELEASE" dest-branch="refs/tags/STABLE-2_1_2_RELEASE"/>
   <project name="musllibc.git" path="projects/musllibc" revision="96f0f505e6c05448074ed366368459ac9a6dbd60" upstream="sel4" dest-branch="sel4"/>
